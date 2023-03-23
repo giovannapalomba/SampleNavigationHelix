@@ -2,6 +2,7 @@
 using HelixToolkit.WinUI;
 using Microsoft.UI.Xaml;
 using SharpDX;
+using SharpDX.Direct3D9;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace SampleNavigationHelix.CustomUIElement
             geometryConfigs.Add(new BatchedMeshGeometryConfig(mesh.ToMeshGeometry3D(), Matrix.Identity, 0));
             this.BatchedGeometries = geometryConfigs;
 
-            this.BatchedMaterials =new List<Material>() { PhongMaterials.Orange };
+            this.BatchedMaterials =new List<HelixToolkit.WinUI.Material>() { PhongMaterials.Orange };
         }
 
         public int PosX { get => (int)GetValue(PosXProperty); set => SetValue(PosXProperty, value); }
@@ -43,6 +44,19 @@ namespace SampleNavigationHelix.CustomUIElement
                 CustomBox3D box = d as CustomBox3D;
 
                 box.HxTransform3D = Matrix.Translation(new Vector3(box.PosX, box.PosY, box.PosZ));
+            }
+        }
+
+        public PhongMaterial BoxColor { get => (PhongMaterial)GetValue(BoxColorProperty); set => SetValue(BoxColorProperty, value); }
+
+        public static DependencyProperty BoxColorProperty = DependencyProperty.Register(nameof(BoxColor), typeof(PhongMaterial), typeof(CustomBox3D), new PropertyMetadata(PhongMaterials.Orange, ColorChanged));
+        private static void ColorChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is CustomBox3D)
+            {
+                CustomBox3D box = d as CustomBox3D;
+
+                box.BatchedMaterials = new List<HelixToolkit.WinUI.Material>() { box.BoxColor };
             }
         }
     }

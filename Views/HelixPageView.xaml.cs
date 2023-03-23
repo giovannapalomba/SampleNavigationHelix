@@ -29,7 +29,10 @@ namespace SampleNavigationHelix.Views
     {
         public HelixPageView()
         {
+
             this.InitializeComponent();
+
+            ViewModel =MainWindowViewModel.HelixViewModel;
 
             viewport.FixedRotationPoint = new Vector3(0, 0, 200);
 
@@ -41,7 +44,7 @@ namespace SampleNavigationHelix.Views
                 FieldOfView = 45,
                 FarPlaneDistance = double.PositiveInfinity,
                 NearPlaneDistance = 0.1f
-            }; 
+            };
 
             viewport.EffectsManager = new DefaultEffectsManager();
         }
@@ -49,14 +52,17 @@ namespace SampleNavigationHelix.Views
 
         public HelixViewModel ViewModel { get; set; }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
-            ViewModel = e.Parameter as HelixViewModel;
-        }
+            // viewport.Dispose(); // System.Runtime.InteropServices.COMException
+            //viewport.Detach();
+            //viewport.DataContext = null;
+            //viewport.RenderHost.Dispose();
 
-        private void AddBox(object sender, RoutedEventArgs e)
-        {
-            ViewModel.AddBox();
+
+            //GC.Collect(2, GCCollectionMode.Forced);
+            //GC.Collect(2, GCCollectionMode.Forced);
+            //GC.WaitForFullGCComplete();
         }
     }
 }

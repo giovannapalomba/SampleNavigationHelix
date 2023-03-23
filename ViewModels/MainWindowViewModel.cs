@@ -10,7 +10,7 @@ namespace SampleNavigationHelix.ViewModels
    
     public class MainWindowViewModel
     {
-        public HelixViewModel HelixViewModel { get; set; }
+        public static HelixViewModel HelixViewModel { get; set; }
         public MainWindowViewModel ()
         {
             HelixViewModel = new HelixViewModel ();

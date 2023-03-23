@@ -9,7 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="using:SampleNavigationHelix.ViewModels"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    NavigationCacheMode="Enabled"
+    NavigationCacheMode="Disabled"
     mc:Ignorable="d">
 
     <Grid>
@@ -18,10 +18,30 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button
+
+
+        <!--<Button
             Grid.Row="0"
             Click="AddBox"
-            Content="Add"/>
+            Content="Add"/>-->
+
+        <Grid Grid.Row="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <ComboBox
+                Grid.Column="0"
+                Width="200"
+                Header="Colors"
+                ItemsSource="{x:Bind Path=ViewModel.Colors}"
+                PlaceholderText="Pick a color"
+                SelectedItem="{x:Bind Path=ViewModel.SelectedColor, Mode=TwoWay}"/>
+
+
+        </Grid>
 
 
         <hx:Viewport3DX
@@ -51,6 +71,7 @@
                 <DataTemplate x:Key="TemplateDX_Box" x:DataType="vm:BoxViewModel">
                     <hx:GroupModel3D Visibility="{x:Bind Path=Visible, Mode=OneWay}">
                         <controls3d:CustomBox3D
+                            BoxColor="{x:Bind Path=vm:MainWindowViewModel.HelixViewModel.SelectedColor, Mode=OneWay}"
                             PosX="{x:Bind Path=PosX, Mode=TwoWay}"
                             PosY="{x:Bind Path=PosY, Mode=TwoWay}"
                             PosZ="{x:Bind Path=PosZ, Mode=TwoWay}"/>
@@ -61,10 +82,12 @@
 
 
 
-            <hx:Viewport3DX.InputBindings>
-                <!--<MouseBinding Command="Pan" Gesture="MiddleClick" />
-                    <hx:KeyBinding Command="hx:ViewportCommands.ZoomExtents" Gesture="Control+E" />-->
-            </hx:Viewport3DX.InputBindings>
+            <!--<hx:Viewport3DX.InputBindings>
+
+                <MouseBinding Command="Pan" Gesture="MiddleClick"/>
+                <hx:KeyBinding Command="hx:ViewportCommands.ZoomExtents" Gesture="Control+E"/>
+
+            </hx:Viewport3DX.InputBindings>-->
 
             <hx:AmbientLight3D Color="#363636"/>
 
@@ -74,5 +97,6 @@
                 ItemsSource="{x:Bind Path=ViewModel.ObjectList, Mode=OneWay}"/>
 
         </hx:Viewport3DX>
+
     </Grid>
 </Page>

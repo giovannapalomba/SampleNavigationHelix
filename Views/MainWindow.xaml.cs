@@ -46,7 +46,7 @@ namespace SampleNavigationHelix.Views
                     Frame.Navigate(typeof(Page1View));
                     break;
                 case "HelixPage":
-                    Frame.Navigate(typeof(HelixPageView), ViewModel.HelixViewModel);
+                    Frame.Navigate(typeof(HelixPageView));
                     break;
 
             }
