@@ -31,7 +31,7 @@
                 <NavigationViewItem Icon="Play" Tag="HelixPage"/>
             </NavigationView.MenuItems>
 
-            <Frame x:ConnectionId='3' x:Name="Frame" Background="Blue"/>
+            <Frame x:ConnectionId='3' x:Name="Frame" Background="BlanchedAlmond"/>
 
         </NavigationView>
     </Grid>

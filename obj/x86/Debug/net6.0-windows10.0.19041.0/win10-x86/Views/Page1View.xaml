@@ -6,6 +6,7 @@
     xmlns:local="using:SampleNavigationHelix.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    NavigationCacheMode="Disabled"
     mc:Ignorable="d">
 
     <Grid>

@@ -224,7 +224,7 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[106];
+            _typeNameTable = new string[108];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -250,17 +250,17 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             _typeNameTable[22] = "HelixToolkit.SharpDX.Core.CameraRotationMode";
             _typeNameTable[23] = "HelixToolkit.SharpDX.Core.FXAALevel";
             _typeNameTable[24] = "Windows.UI.Core.CoreCursorType";
-            _typeNameTable[25] = "HelixToolkit.WinUI.InputBindingCollection";
-            _typeNameTable[26] = "System.Collections.ObjectModel.ObservableCollection`1<HelixToolkit.WinUI.InputBinding>";
-            _typeNameTable[27] = "System.Collections.ObjectModel.Collection`1<HelixToolkit.WinUI.InputBinding>";
-            _typeNameTable[28] = "HelixToolkit.WinUI.InputBinding";
-            _typeNameTable[29] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[30] = "System.Windows.Input.ICommand";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[32] = "HelixToolkit.WinUI.InputGesture";
-            _typeNameTable[33] = "HelixToolkit.SharpDX.Core.IRenderHost";
-            _typeNameTable[34] = "HelixToolkit.SharpDX.Core.Cameras.CameraCore";
-            _typeNameTable[35] = "HelixToolkit.SharpDX.Core.Model.ObservableObject";
+            _typeNameTable[25] = "HelixToolkit.SharpDX.Core.IRenderHost";
+            _typeNameTable[26] = "HelixToolkit.SharpDX.Core.Cameras.CameraCore";
+            _typeNameTable[27] = "HelixToolkit.SharpDX.Core.Model.ObservableObject";
+            _typeNameTable[28] = "HelixToolkit.WinUI.InputBindingCollection";
+            _typeNameTable[29] = "System.Collections.ObjectModel.ObservableCollection`1<HelixToolkit.WinUI.InputBinding>";
+            _typeNameTable[30] = "System.Collections.ObjectModel.Collection`1<HelixToolkit.WinUI.InputBinding>";
+            _typeNameTable[31] = "HelixToolkit.WinUI.InputBinding";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[33] = "System.Windows.Input.ICommand";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[35] = "HelixToolkit.WinUI.InputGesture";
             _typeNameTable[36] = "HelixToolkit.WinUI.ManipulationBindingCollection";
             _typeNameTable[37] = "System.Collections.ObjectModel.ObservableCollection`1<HelixToolkit.WinUI.ManipulationBinding>";
             _typeNameTable[38] = "System.Collections.ObjectModel.Collection`1<HelixToolkit.WinUI.ManipulationBinding>";
@@ -277,26 +277,26 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             _typeNameTable[49] = "SharpDX.Vector3";
             _typeNameTable[50] = "String";
             _typeNameTable[51] = "Double";
-            _typeNameTable[52] = "System.IO.Stream";
-            _typeNameTable[53] = "System.MarshalByRefObject";
-            _typeNameTable[54] = "HelixToolkit.WinUI.InputController";
-            _typeNameTable[55] = "System.Exception";
-            _typeNameTable[56] = "HelixToolkit.SharpDX.Core.OITRenderType";
-            _typeNameTable[57] = "HelixToolkit.SharpDX.Core.OITWeightMode";
-            _typeNameTable[58] = "HelixToolkit.SharpDX.Core.IModelContainer";
-            _typeNameTable[59] = "HelixToolkit.SharpDX.Core.SSAOQuality";
-            _typeNameTable[60] = "HelixToolkit.WinUI.GroupModel3D";
-            _typeNameTable[61] = "HelixToolkit.WinUI.GroupElement3D";
-            _typeNameTable[62] = "System.Collections.Generic.IList`1<HelixToolkit.WinUI.Element3D>";
-            _typeNameTable[63] = "HelixToolkit.WinUI.IOctreeManagerWrapper";
-            _typeNameTable[64] = "Microsoft.UI.Xaml.Controls.ItemCollection";
-            _typeNameTable[65] = "SampleNavigationHelix.CustomUIElement.CustomBox3D";
-            _typeNameTable[66] = "HelixToolkit.WinUI.BatchedMeshGeometryModel3D";
-            _typeNameTable[67] = "System.Collections.Generic.IList`1<HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>";
-            _typeNameTable[68] = "HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig";
-            _typeNameTable[69] = "HelixToolkit.SharpDX.Core.Geometry3D";
-            _typeNameTable[70] = "System.Collections.Generic.IList`1<HelixToolkit.WinUI.Material>";
-            _typeNameTable[71] = "HelixToolkit.WinUI.Material";
+            _typeNameTable[52] = "HelixToolkit.SharpDX.Core.TextureModel";
+            _typeNameTable[53] = "HelixToolkit.WinUI.InputController";
+            _typeNameTable[54] = "System.Exception";
+            _typeNameTable[55] = "HelixToolkit.SharpDX.Core.OITRenderType";
+            _typeNameTable[56] = "HelixToolkit.SharpDX.Core.OITWeightMode";
+            _typeNameTable[57] = "HelixToolkit.SharpDX.Core.IModelContainer";
+            _typeNameTable[58] = "HelixToolkit.SharpDX.Core.SSAOQuality";
+            _typeNameTable[59] = "HelixToolkit.WinUI.GroupModel3D";
+            _typeNameTable[60] = "HelixToolkit.WinUI.GroupElement3D";
+            _typeNameTable[61] = "System.Collections.Generic.IList`1<HelixToolkit.WinUI.Element3D>";
+            _typeNameTable[62] = "HelixToolkit.WinUI.IOctreeManagerWrapper";
+            _typeNameTable[63] = "Microsoft.UI.Xaml.Controls.ItemCollection";
+            _typeNameTable[64] = "SampleNavigationHelix.CustomUIElement.CustomBox3D";
+            _typeNameTable[65] = "HelixToolkit.WinUI.BatchedMeshGeometryModel3D";
+            _typeNameTable[66] = "HelixToolkit.WinUI.PhongMaterial";
+            _typeNameTable[67] = "HelixToolkit.WinUI.Material";
+            _typeNameTable[68] = "System.Collections.Generic.IList`1<HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>";
+            _typeNameTable[69] = "HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig";
+            _typeNameTable[70] = "HelixToolkit.SharpDX.Core.Geometry3D";
+            _typeNameTable[71] = "System.Collections.Generic.IList`1<HelixToolkit.WinUI.Material>";
             _typeNameTable[72] = "HelixToolkit.SharpDX.Core.Model.MaterialCore";
             _typeNameTable[73] = "SharpDX.Direct3D11.FillMode";
             _typeNameTable[74] = "SharpDX.Direct3D11.CullMode";
@@ -311,28 +311,30 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             _typeNameTable[83] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[84] = "Microsoft.UI.Xaml.Controls.UserControl";
             _typeNameTable[85] = "SampleNavigationHelix.ViewModels.HelixViewModel";
-            _typeNameTable[86] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[87] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[88] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[89] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[90] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[91] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[92] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[93] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[94] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[95] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[96] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[97] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[98] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[99] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[100] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[101] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[102] = "SampleNavigationHelix.Views.MainWindow";
-            _typeNameTable[103] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[104] = "SampleNavigationHelix.ViewModels.MainWindowViewModel";
-            _typeNameTable[105] = "SampleNavigationHelix.Views.Page1View";
+            _typeNameTable[86] = "SampleNavigationHelix.ViewModels.BaseViewModel";
+            _typeNameTable[87] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[88] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[89] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[90] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[91] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[92] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[93] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[94] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[95] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[96] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[97] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[98] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[99] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[100] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
+            _typeNameTable[101] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
+            _typeNameTable[102] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[103] = "Microsoft.UI.Xaml.Controls.InfoBadge";
+            _typeNameTable[104] = "SampleNavigationHelix.Views.MainWindow";
+            _typeNameTable[105] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[106] = "SampleNavigationHelix.ViewModels.MainWindowViewModel";
+            _typeNameTable[107] = "SampleNavigationHelix.Views.Page1View";
 
-            _typeTable = new global::System.Type[106];
+            _typeTable = new global::System.Type[108];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -358,17 +360,17 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             _typeTable[22] = typeof(global::HelixToolkit.SharpDX.Core.CameraRotationMode);
             _typeTable[23] = typeof(global::HelixToolkit.SharpDX.Core.FXAALevel);
             _typeTable[24] = typeof(global::Windows.UI.Core.CoreCursorType);
-            _typeTable[25] = typeof(global::HelixToolkit.WinUI.InputBindingCollection);
-            _typeTable[26] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::HelixToolkit.WinUI.InputBinding>);
-            _typeTable[27] = typeof(global::System.Collections.ObjectModel.Collection<global::HelixToolkit.WinUI.InputBinding>);
-            _typeTable[28] = typeof(global::HelixToolkit.WinUI.InputBinding);
-            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[30] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[32] = typeof(global::HelixToolkit.WinUI.InputGesture);
-            _typeTable[33] = typeof(global::HelixToolkit.SharpDX.Core.IRenderHost);
-            _typeTable[34] = typeof(global::HelixToolkit.SharpDX.Core.Cameras.CameraCore);
-            _typeTable[35] = typeof(global::HelixToolkit.SharpDX.Core.Model.ObservableObject);
+            _typeTable[25] = typeof(global::HelixToolkit.SharpDX.Core.IRenderHost);
+            _typeTable[26] = typeof(global::HelixToolkit.SharpDX.Core.Cameras.CameraCore);
+            _typeTable[27] = typeof(global::HelixToolkit.SharpDX.Core.Model.ObservableObject);
+            _typeTable[28] = typeof(global::HelixToolkit.WinUI.InputBindingCollection);
+            _typeTable[29] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::HelixToolkit.WinUI.InputBinding>);
+            _typeTable[30] = typeof(global::System.Collections.ObjectModel.Collection<global::HelixToolkit.WinUI.InputBinding>);
+            _typeTable[31] = typeof(global::HelixToolkit.WinUI.InputBinding);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[33] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[35] = typeof(global::HelixToolkit.WinUI.InputGesture);
             _typeTable[36] = typeof(global::HelixToolkit.WinUI.ManipulationBindingCollection);
             _typeTable[37] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::HelixToolkit.WinUI.ManipulationBinding>);
             _typeTable[38] = typeof(global::System.Collections.ObjectModel.Collection<global::HelixToolkit.WinUI.ManipulationBinding>);
@@ -385,26 +387,26 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             _typeTable[49] = typeof(global::SharpDX.Vector3);
             _typeTable[50] = typeof(global::System.String);
             _typeTable[51] = typeof(global::System.Double);
-            _typeTable[52] = typeof(global::System.IO.Stream);
-            _typeTable[53] = typeof(global::System.MarshalByRefObject);
-            _typeTable[54] = typeof(global::HelixToolkit.WinUI.InputController);
-            _typeTable[55] = typeof(global::System.Exception);
-            _typeTable[56] = typeof(global::HelixToolkit.SharpDX.Core.OITRenderType);
-            _typeTable[57] = typeof(global::HelixToolkit.SharpDX.Core.OITWeightMode);
-            _typeTable[58] = typeof(global::HelixToolkit.SharpDX.Core.IModelContainer);
-            _typeTable[59] = typeof(global::HelixToolkit.SharpDX.Core.SSAOQuality);
-            _typeTable[60] = typeof(global::HelixToolkit.WinUI.GroupModel3D);
-            _typeTable[61] = typeof(global::HelixToolkit.WinUI.GroupElement3D);
-            _typeTable[62] = typeof(global::System.Collections.Generic.IList<global::HelixToolkit.WinUI.Element3D>);
-            _typeTable[63] = typeof(global::HelixToolkit.WinUI.IOctreeManagerWrapper);
-            _typeTable[64] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollection);
-            _typeTable[65] = typeof(global::SampleNavigationHelix.CustomUIElement.CustomBox3D);
-            _typeTable[66] = typeof(global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D);
-            _typeTable[67] = typeof(global::System.Collections.Generic.IList<global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>);
-            _typeTable[68] = typeof(global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig);
-            _typeTable[69] = typeof(global::HelixToolkit.SharpDX.Core.Geometry3D);
-            _typeTable[70] = typeof(global::System.Collections.Generic.IList<global::HelixToolkit.WinUI.Material>);
-            _typeTable[71] = typeof(global::HelixToolkit.WinUI.Material);
+            _typeTable[52] = typeof(global::HelixToolkit.SharpDX.Core.TextureModel);
+            _typeTable[53] = typeof(global::HelixToolkit.WinUI.InputController);
+            _typeTable[54] = typeof(global::System.Exception);
+            _typeTable[55] = typeof(global::HelixToolkit.SharpDX.Core.OITRenderType);
+            _typeTable[56] = typeof(global::HelixToolkit.SharpDX.Core.OITWeightMode);
+            _typeTable[57] = typeof(global::HelixToolkit.SharpDX.Core.IModelContainer);
+            _typeTable[58] = typeof(global::HelixToolkit.SharpDX.Core.SSAOQuality);
+            _typeTable[59] = typeof(global::HelixToolkit.WinUI.GroupModel3D);
+            _typeTable[60] = typeof(global::HelixToolkit.WinUI.GroupElement3D);
+            _typeTable[61] = typeof(global::System.Collections.Generic.IList<global::HelixToolkit.WinUI.Element3D>);
+            _typeTable[62] = typeof(global::HelixToolkit.WinUI.IOctreeManagerWrapper);
+            _typeTable[63] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollection);
+            _typeTable[64] = typeof(global::SampleNavigationHelix.CustomUIElement.CustomBox3D);
+            _typeTable[65] = typeof(global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D);
+            _typeTable[66] = typeof(global::HelixToolkit.WinUI.PhongMaterial);
+            _typeTable[67] = typeof(global::HelixToolkit.WinUI.Material);
+            _typeTable[68] = typeof(global::System.Collections.Generic.IList<global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>);
+            _typeTable[69] = typeof(global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig);
+            _typeTable[70] = typeof(global::HelixToolkit.SharpDX.Core.Geometry3D);
+            _typeTable[71] = typeof(global::System.Collections.Generic.IList<global::HelixToolkit.WinUI.Material>);
             _typeTable[72] = typeof(global::HelixToolkit.SharpDX.Core.Model.MaterialCore);
             _typeTable[73] = typeof(global::SharpDX.Direct3D11.FillMode);
             _typeTable[74] = typeof(global::SharpDX.Direct3D11.CullMode);
@@ -419,26 +421,28 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             _typeTable[83] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[84] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
             _typeTable[85] = typeof(global::SampleNavigationHelix.ViewModels.HelixViewModel);
-            _typeTable[86] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[87] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[88] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[89] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[90] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[91] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[92] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[93] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[94] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[95] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[96] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[97] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[98] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[99] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[100] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[101] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[102] = typeof(global::SampleNavigationHelix.Views.MainWindow);
-            _typeTable[103] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[104] = typeof(global::SampleNavigationHelix.ViewModels.MainWindowViewModel);
-            _typeTable[105] = typeof(global::SampleNavigationHelix.Views.Page1View);
+            _typeTable[86] = typeof(global::SampleNavigationHelix.ViewModels.BaseViewModel);
+            _typeTable[87] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[88] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[89] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[90] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[91] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[92] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[93] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[94] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[95] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[96] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[97] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[98] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[99] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[100] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
+            _typeTable[101] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
+            _typeTable[102] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[103] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
+            _typeTable[104] = typeof(global::SampleNavigationHelix.Views.MainWindow);
+            _typeTable[105] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[106] = typeof(global::SampleNavigationHelix.ViewModels.MainWindowViewModel);
+            _typeTable[107] = typeof(global::SampleNavigationHelix.Views.Page1View);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -478,29 +482,31 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
         private object Activate_6_ObservableElement3DCollection() { return new global::HelixToolkit.WinUI.ObservableElement3DCollection(); }
         private object Activate_7_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::HelixToolkit.WinUI.Element3D>(); }
         private object Activate_8_Collection() { return new global::System.Collections.ObjectModel.Collection<global::HelixToolkit.WinUI.Element3D>(); }
-        private object Activate_25_InputBindingCollection() { return new global::HelixToolkit.WinUI.InputBindingCollection(); }
-        private object Activate_26_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::HelixToolkit.WinUI.InputBinding>(); }
-        private object Activate_27_Collection() { return new global::System.Collections.ObjectModel.Collection<global::HelixToolkit.WinUI.InputBinding>(); }
-        private object Activate_28_InputBinding() { return new global::HelixToolkit.WinUI.InputBinding(); }
+        private object Activate_28_InputBindingCollection() { return new global::HelixToolkit.WinUI.InputBindingCollection(); }
+        private object Activate_29_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::HelixToolkit.WinUI.InputBinding>(); }
+        private object Activate_30_Collection() { return new global::System.Collections.ObjectModel.Collection<global::HelixToolkit.WinUI.InputBinding>(); }
+        private object Activate_31_InputBinding() { return new global::HelixToolkit.WinUI.InputBinding(); }
         private object Activate_36_ManipulationBindingCollection() { return new global::HelixToolkit.WinUI.ManipulationBindingCollection(); }
         private object Activate_37_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::HelixToolkit.WinUI.ManipulationBinding>(); }
         private object Activate_38_Collection() { return new global::System.Collections.ObjectModel.Collection<global::HelixToolkit.WinUI.ManipulationBinding>(); }
         private object Activate_39_ManipulationBinding() { return new global::HelixToolkit.WinUI.ManipulationBinding(); }
-        private object Activate_54_InputController() { return new global::HelixToolkit.WinUI.InputController(); }
-        private object Activate_55_Exception() { return new global::System.Exception(); }
-        private object Activate_60_GroupModel3D() { return new global::HelixToolkit.WinUI.GroupModel3D(); }
-        private object Activate_65_CustomBox3D() { return new global::SampleNavigationHelix.CustomUIElement.CustomBox3D(); }
-        private object Activate_66_BatchedMeshGeometryModel3D() { return new global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D(); }
+        private object Activate_53_InputController() { return new global::HelixToolkit.WinUI.InputController(); }
+        private object Activate_54_Exception() { return new global::System.Exception(); }
+        private object Activate_59_GroupModel3D() { return new global::HelixToolkit.WinUI.GroupModel3D(); }
+        private object Activate_64_CustomBox3D() { return new global::SampleNavigationHelix.CustomUIElement.CustomBox3D(); }
+        private object Activate_65_BatchedMeshGeometryModel3D() { return new global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D(); }
+        private object Activate_66_PhongMaterial() { return new global::HelixToolkit.WinUI.PhongMaterial(); }
         private object Activate_75_AmbientLight3D() { return new global::HelixToolkit.WinUI.AmbientLight3D(); }
         private object Activate_78_ItemsModel3D() { return new global::HelixToolkit.WinUI.ItemsModel3D(); }
         private object Activate_82_HelixPageView() { return new global::SampleNavigationHelix.Views.HelixPageView(); }
         private object Activate_85_HelixViewModel() { return new global::SampleNavigationHelix.ViewModels.HelixViewModel(); }
-        private object Activate_86_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_98_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_99_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_102_MainWindow() { return new global::SampleNavigationHelix.Views.MainWindow(); }
-        private object Activate_104_MainWindowViewModel() { return new global::SampleNavigationHelix.ViewModels.MainWindowViewModel(); }
-        private object Activate_105_Page1View() { return new global::SampleNavigationHelix.Views.Page1View(); }
+        private object Activate_87_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_99_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private object Activate_100_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
+        private object Activate_103_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
+        private object Activate_104_MainWindow() { return new global::SampleNavigationHelix.Views.MainWindow(); }
+        private object Activate_106_MainWindowViewModel() { return new global::SampleNavigationHelix.ViewModels.MainWindowViewModel(); }
+        private object Activate_107_Page1View() { return new global::SampleNavigationHelix.Views.Page1View(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -526,19 +532,19 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             var newItem = (global::HelixToolkit.WinUI.Element3D)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_25_InputBindingCollection(object instance, object item)
+        private void VectorAdd_28_InputBindingCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::HelixToolkit.WinUI.InputBinding>)instance;
             var newItem = (global::HelixToolkit.WinUI.InputBinding)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_26_ObservableCollection(object instance, object item)
+        private void VectorAdd_29_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::HelixToolkit.WinUI.InputBinding>)instance;
             var newItem = (global::HelixToolkit.WinUI.InputBinding)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_27_Collection(object instance, object item)
+        private void VectorAdd_30_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::HelixToolkit.WinUI.InputBinding>)instance;
             var newItem = (global::HelixToolkit.WinUI.InputBinding)item;
@@ -562,25 +568,25 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             var newItem = (global::HelixToolkit.WinUI.ManipulationBinding)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_62_IList(object instance, object item)
+        private void VectorAdd_61_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::HelixToolkit.WinUI.Element3D>)instance;
             var newItem = (global::HelixToolkit.WinUI.Element3D)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_67_IList(object instance, object item)
+        private void VectorAdd_68_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>)instance;
             var newItem = (global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_70_IList(object instance, object item)
+        private void VectorAdd_71_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::HelixToolkit.WinUI.Material>)instance;
             var newItem = (global::HelixToolkit.WinUI.Material)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_90_IList(object instance, object item)
+        private void VectorAdd_91_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
@@ -639,9 +645,9 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 userType.AddMemberName("ShowCoordinateSystem");
                 userType.AddMemberName("ShowViewCube");
                 userType.AddMemberName("ZoomAroundMouseDownPoint");
-                userType.AddMemberName("InputBindings");
                 userType.AddMemberName("RenderHost");
                 userType.AddMemberName("CameraCore");
+                userType.AddMemberName("InputBindings");
                 userType.AddMemberName("ManipulationBindings");
                 userType.AddMemberName("Renderables");
                 userType.AddMemberName("D2DRenderables");
@@ -872,30 +878,47 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 25:   //  HelixToolkit.WinUI.InputBindingCollection
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<HelixToolkit.WinUI.InputBinding>"));
-                userType.CollectionAdd = VectorAdd_25_InputBindingCollection;
+            case 25:   //  HelixToolkit.SharpDX.Core.IRenderHost
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 26:   //  System.Collections.ObjectModel.ObservableCollection`1<HelixToolkit.WinUI.InputBinding>
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<HelixToolkit.WinUI.InputBinding>"));
-                userType.Activator = Activate_26_ObservableCollection;
-                userType.CollectionAdd = VectorAdd_26_ObservableCollection;
+            case 26:   //  HelixToolkit.SharpDX.Core.Cameras.CameraCore
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.SharpDX.Core.Model.ObservableObject"));
+                userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 27:   //  System.Collections.ObjectModel.Collection`1<HelixToolkit.WinUI.InputBinding>
+            case 27:   //  HelixToolkit.SharpDX.Core.Model.ObservableObject
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_27_Collection;
-                userType.CollectionAdd = VectorAdd_27_Collection;
                 xamlType = userType;
                 break;
 
-            case 28:   //  HelixToolkit.WinUI.InputBinding
+            case 28:   //  HelixToolkit.WinUI.InputBindingCollection
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.ObservableCollection`1<HelixToolkit.WinUI.InputBinding>"));
+                userType.CollectionAdd = VectorAdd_28_InputBindingCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 29:   //  System.Collections.ObjectModel.ObservableCollection`1<HelixToolkit.WinUI.InputBinding>
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<HelixToolkit.WinUI.InputBinding>"));
+                userType.Activator = Activate_29_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_29_ObservableCollection;
+                xamlType = userType;
+                break;
+
+            case 30:   //  System.Collections.ObjectModel.Collection`1<HelixToolkit.WinUI.InputBinding>
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_30_Collection;
+                userType.CollectionAdd = VectorAdd_30_Collection;
+                xamlType = userType;
+                break;
+
+            case 31:   //  HelixToolkit.WinUI.InputBinding
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_28_InputBinding;
+                userType.Activator = Activate_31_InputBinding;
                 userType.AddMemberName("Command");
                 userType.AddMemberName("CommandParameter");
                 userType.AddMemberName("CommandTarget");
@@ -903,38 +926,21 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 29:   //  Microsoft.UI.Xaml.DependencyObject
+            case 32:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 30:   //  System.Windows.Input.ICommand
+            case 33:   //  System.Windows.Input.ICommand
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.UIElement
+            case 34:   //  Microsoft.UI.Xaml.UIElement
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 32:   //  HelixToolkit.WinUI.InputGesture
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 33:   //  HelixToolkit.SharpDX.Core.IRenderHost
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 34:   //  HelixToolkit.SharpDX.Core.Cameras.CameraCore
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.SharpDX.Core.Model.ObservableObject"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 35:   //  HelixToolkit.SharpDX.Core.Model.ObservableObject
+            case 35:   //  HelixToolkit.WinUI.InputGesture
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
@@ -1040,30 +1046,25 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 52:   //  System.IO.Stream
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.MarshalByRefObject"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 53:   //  System.MarshalByRefObject
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 54:   //  HelixToolkit.WinUI.InputController
+            case 52:   //  HelixToolkit.SharpDX.Core.TextureModel
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 55:   //  System.Exception
+            case 53:   //  HelixToolkit.WinUI.InputController
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 56:   //  HelixToolkit.SharpDX.Core.OITRenderType
+            case 54:   //  System.Exception
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 55:   //  HelixToolkit.SharpDX.Core.OITRenderType
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::HelixToolkit.SharpDX.Core.OITRenderType.None);
                 userType.AddEnumValue("SinglePassWeighted", global::HelixToolkit.SharpDX.Core.OITRenderType.SinglePassWeighted);
@@ -1071,7 +1072,7 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 57:   //  HelixToolkit.SharpDX.Core.OITWeightMode
+            case 56:   //  HelixToolkit.SharpDX.Core.OITWeightMode
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Linear0", global::HelixToolkit.SharpDX.Core.OITWeightMode.Linear0);
                 userType.AddEnumValue("Linear1", global::HelixToolkit.SharpDX.Core.OITWeightMode.Linear1);
@@ -1080,27 +1081,27 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 58:   //  HelixToolkit.SharpDX.Core.IModelContainer
+            case 57:   //  HelixToolkit.SharpDX.Core.IModelContainer
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 59:   //  HelixToolkit.SharpDX.Core.SSAOQuality
+            case 58:   //  HelixToolkit.SharpDX.Core.SSAOQuality
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("High", global::HelixToolkit.SharpDX.Core.SSAOQuality.High);
                 userType.AddEnumValue("Low", global::HelixToolkit.SharpDX.Core.SSAOQuality.Low);
                 xamlType = userType;
                 break;
 
-            case 60:   //  HelixToolkit.WinUI.GroupModel3D
+            case 59:   //  HelixToolkit.WinUI.GroupModel3D
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.WinUI.GroupElement3D"));
-                userType.Activator = Activate_60_GroupModel3D;
+                userType.Activator = Activate_59_GroupModel3D;
                 userType.SetContentPropertyName("HelixToolkit.WinUI.GroupElement3D.Children");
                 xamlType = userType;
                 break;
 
-            case 61:   //  HelixToolkit.WinUI.GroupElement3D
+            case 60:   //  HelixToolkit.WinUI.GroupElement3D
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.WinUI.Element3D"));
                 userType.SetContentPropertyName("HelixToolkit.WinUI.GroupElement3D.Children");
                 userType.AddMemberName("Children");
@@ -1111,26 +1112,27 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 62:   //  System.Collections.Generic.IList`1<HelixToolkit.WinUI.Element3D>
+            case 61:   //  System.Collections.Generic.IList`1<HelixToolkit.WinUI.Element3D>
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_62_IList;
+                userType.CollectionAdd = VectorAdd_61_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 63:   //  HelixToolkit.WinUI.IOctreeManagerWrapper
+            case 62:   //  HelixToolkit.WinUI.IOctreeManagerWrapper
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 64:   //  Microsoft.UI.Xaml.Controls.ItemCollection
+            case 63:   //  Microsoft.UI.Xaml.Controls.ItemCollection
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 65:   //  SampleNavigationHelix.CustomUIElement.CustomBox3D
+            case 64:   //  SampleNavigationHelix.CustomUIElement.CustomBox3D
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D"));
-                userType.Activator = Activate_65_CustomBox3D;
+                userType.Activator = Activate_64_CustomBox3D;
+                userType.AddMemberName("BoxColor");
                 userType.AddMemberName("PosX");
                 userType.AddMemberName("PosY");
                 userType.AddMemberName("PosZ");
@@ -1138,9 +1140,9 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 66:   //  HelixToolkit.WinUI.BatchedMeshGeometryModel3D
+            case 65:   //  HelixToolkit.WinUI.BatchedMeshGeometryModel3D
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.WinUI.Element3D"));
-                userType.Activator = Activate_66_BatchedMeshGeometryModel3D;
+                userType.Activator = Activate_65_BatchedMeshGeometryModel3D;
                 userType.AddMemberName("BatchedGeometries");
                 userType.AddMemberName("BatchedMaterials");
                 userType.AddMemberName("PostEffects");
@@ -1164,14 +1166,27 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 67:   //  System.Collections.Generic.IList`1<HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_67_IList;
+            case 66:   //  HelixToolkit.WinUI.PhongMaterial
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.WinUI.Material"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 68:   //  HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig
+            case 67:   //  HelixToolkit.WinUI.Material
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.AddMemberName("Core");
+                userType.AddMemberName("Name");
+                xamlType = userType;
+                break;
+
+            case 68:   //  System.Collections.Generic.IList`1<HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.CollectionAdd = VectorAdd_68_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 69:   //  HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.AddMemberName("Geometry");
                 userType.AddMemberName("ModelTransform");
@@ -1179,23 +1194,16 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 69:   //  HelixToolkit.SharpDX.Core.Geometry3D
+            case 70:   //  HelixToolkit.SharpDX.Core.Geometry3D
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("HelixToolkit.SharpDX.Core.Model.ObservableObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 70:   //  System.Collections.Generic.IList`1<HelixToolkit.WinUI.Material>
+            case 71:   //  System.Collections.Generic.IList`1<HelixToolkit.WinUI.Material>
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_70_IList;
+                userType.CollectionAdd = VectorAdd_71_IList;
                 userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 71:   //  HelixToolkit.WinUI.Material
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.AddMemberName("Core");
-                userType.AddMemberName("Name");
                 xamlType = userType;
                 break;
 
@@ -1288,15 +1296,21 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 break;
 
             case 85:   //  SampleNavigationHelix.ViewModels.HelixViewModel
-                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("SampleNavigationHelix.ViewModels.BaseViewModel"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 86:   //  Microsoft.UI.Xaml.Controls.NavigationView
+            case 86:   //  SampleNavigationHelix.ViewModels.BaseViewModel
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 87:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_86_NavigationView;
+                userType.Activator = Activate_87_NavigationView;
                 userType.AddMemberName("AlwaysShowHeader");
                 userType.AddMemberName("CompactModeThresholdWidth");
                 userType.AddMemberName("CompactPaneLength");
@@ -1337,11 +1351,11 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 87:   //  Microsoft.UI.Xaml.Controls.ContentControl
+            case 88:   //  Microsoft.UI.Xaml.Controls.ContentControl
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 88:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+            case 89:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
@@ -1349,25 +1363,25 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 89:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+            case 90:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 90:   //  System.Collections.Generic.IList`1<Object>
+            case 91:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_90_IList;
+                userType.CollectionAdd = VectorAdd_91_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 91:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            case 92:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 92:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 93:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
@@ -1375,22 +1389,22 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 93:   //  Microsoft.UI.Xaml.Style
+            case 94:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 94:   //  Microsoft.UI.Xaml.Controls.StyleSelector
+            case 95:   //  Microsoft.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 95:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+            case 96:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 96:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+            case 97:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
@@ -1400,7 +1414,7 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 97:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+            case 98:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
@@ -1408,18 +1422,19 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 98:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            case 99:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 99:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
+            case 100:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_99_NavigationViewItem;
+                userType.Activator = Activate_100_NavigationViewItem;
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("CompactPaneLength");
                 userType.AddMemberName("HasUnrealizedChildren");
+                userType.AddMemberName("InfoBadge");
                 userType.AddMemberName("IsChildSelected");
                 userType.AddMemberName("IsExpanded");
                 userType.AddMemberName("MenuItems");
@@ -1428,38 +1443,44 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 100:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+            case 101:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 101:   //  Microsoft.UI.Xaml.Controls.IconElement
+            case 102:   //  Microsoft.UI.Xaml.Controls.IconElement
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 102:   //  SampleNavigationHelix.Views.MainWindow
+            case 103:   //  Microsoft.UI.Xaml.Controls.InfoBadge
+                userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 104:   //  SampleNavigationHelix.Views.MainWindow
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_102_MainWindow;
+                userType.Activator = Activate_104_MainWindow;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 103:   //  Microsoft.UI.Xaml.Window
+            case 105:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 104:   //  SampleNavigationHelix.ViewModels.MainWindowViewModel
+            case 106:   //  SampleNavigationHelix.ViewModels.MainWindowViewModel
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 105:   //  SampleNavigationHelix.Views.Page1View
+            case 107:   //  SampleNavigationHelix.Views.Page1View
                 userType = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_105_Page1View;
+                userType.Activator = Activate_107_Page1View;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -1784,60 +1805,60 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             var that = (global::HelixToolkit.WinUI.Viewport3DX)instance;
             that.ZoomAroundMouseDownPoint = (global::System.Boolean)Value;
         }
-        private object get_31_Viewport3DX_InputBindings(object instance)
-        {
-            var that = (global::HelixToolkit.WinUI.Viewport3DX)instance;
-            return that.InputBindings;
-        }
-        private object get_32_InputBinding_Command(object instance)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            return that.Command;
-        }
-        private void set_32_InputBinding_Command(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            that.Command = (global::System.Windows.Input.ICommand)Value;
-        }
-        private object get_33_InputBinding_CommandParameter(object instance)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            return that.CommandParameter;
-        }
-        private void set_33_InputBinding_CommandParameter(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            that.CommandParameter = (global::System.Object)Value;
-        }
-        private object get_34_InputBinding_CommandTarget(object instance)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            return that.CommandTarget;
-        }
-        private void set_34_InputBinding_CommandTarget(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            that.CommandTarget = (global::Microsoft.UI.Xaml.UIElement)Value;
-        }
-        private object get_35_InputBinding_Gesture(object instance)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            return that.Gesture;
-        }
-        private void set_35_InputBinding_Gesture(object instance, object Value)
-        {
-            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
-            that.Gesture = (global::HelixToolkit.WinUI.InputGesture)Value;
-        }
-        private object get_36_Viewport3DX_RenderHost(object instance)
+        private object get_31_Viewport3DX_RenderHost(object instance)
         {
             var that = (global::HelixToolkit.WinUI.Viewport3DX)instance;
             return that.RenderHost;
         }
-        private object get_37_Viewport3DX_CameraCore(object instance)
+        private object get_32_Viewport3DX_CameraCore(object instance)
         {
             var that = (global::HelixToolkit.WinUI.Viewport3DX)instance;
             return that.CameraCore;
+        }
+        private object get_33_Viewport3DX_InputBindings(object instance)
+        {
+            var that = (global::HelixToolkit.WinUI.Viewport3DX)instance;
+            return that.InputBindings;
+        }
+        private object get_34_InputBinding_Command(object instance)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            return that.Command;
+        }
+        private void set_34_InputBinding_Command(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_35_InputBinding_CommandParameter(object instance)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            return that.CommandParameter;
+        }
+        private void set_35_InputBinding_CommandParameter(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_36_InputBinding_CommandTarget(object instance)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            return that.CommandTarget;
+        }
+        private void set_36_InputBinding_CommandTarget(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            that.CommandTarget = (global::Microsoft.UI.Xaml.UIElement)Value;
+        }
+        private object get_37_InputBinding_Gesture(object instance)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            return that.Gesture;
+        }
+        private void set_37_InputBinding_Gesture(object instance, object Value)
+        {
+            var that = (global::HelixToolkit.WinUI.InputBinding)instance;
+            that.Gesture = (global::HelixToolkit.WinUI.InputGesture)Value;
         }
         private object get_38_Viewport3DX_ManipulationBindings(object instance)
         {
@@ -2077,7 +2098,7 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
         private void set_64_Viewport3DX_ViewCubeTexture(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.Viewport3DX)instance;
-            that.ViewCubeTexture = (global::System.IO.Stream)Value;
+            that.ViewCubeTexture = (global::HelixToolkit.SharpDX.Core.TextureModel)Value;
         }
         private object get_65_Viewport3DX_ViewCubeHorizontalPosition(object instance)
         {
@@ -2679,782 +2700,802 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
             var that = (global::HelixToolkit.WinUI.GroupElement3D)instance;
             return that.Items;
         }
-        private object get_126_CustomBox3D_PosX(object instance)
+        private object get_126_CustomBox3D_BoxColor(object instance)
+        {
+            var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
+            return that.BoxColor;
+        }
+        private void set_126_CustomBox3D_BoxColor(object instance, object Value)
+        {
+            var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
+            that.BoxColor = (global::HelixToolkit.WinUI.PhongMaterial)Value;
+        }
+        private object get_127_CustomBox3D_PosX(object instance)
         {
             var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
             return that.PosX;
         }
-        private void set_126_CustomBox3D_PosX(object instance, object Value)
+        private void set_127_CustomBox3D_PosX(object instance, object Value)
         {
             var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
             that.PosX = (global::System.Int32)Value;
         }
-        private object get_127_CustomBox3D_PosY(object instance)
+        private object get_128_CustomBox3D_PosY(object instance)
         {
             var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
             return that.PosY;
         }
-        private void set_127_CustomBox3D_PosY(object instance, object Value)
+        private void set_128_CustomBox3D_PosY(object instance, object Value)
         {
             var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
             that.PosY = (global::System.Int32)Value;
         }
-        private object get_128_CustomBox3D_PosZ(object instance)
+        private object get_129_CustomBox3D_PosZ(object instance)
         {
             var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
             return that.PosZ;
         }
-        private void set_128_CustomBox3D_PosZ(object instance, object Value)
+        private void set_129_CustomBox3D_PosZ(object instance, object Value)
         {
             var that = (global::SampleNavigationHelix.CustomUIElement.CustomBox3D)instance;
             that.PosZ = (global::System.Int32)Value;
         }
-        private object get_129_BatchedMeshGeometryModel3D_BatchedGeometries(object instance)
+        private object get_130_BatchedMeshGeometryModel3D_BatchedGeometries(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.BatchedGeometries;
         }
-        private void set_129_BatchedMeshGeometryModel3D_BatchedGeometries(object instance, object Value)
+        private void set_130_BatchedMeshGeometryModel3D_BatchedGeometries(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.BatchedGeometries = (global::System.Collections.Generic.IList<global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>)Value;
         }
-        private object get_130_BatchedMeshGeometryConfig_Geometry(object instance)
+        private object get_131_BatchedMeshGeometryConfig_Geometry(object instance)
         {
             var that = (global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig)instance;
             return that.Geometry;
         }
-        private object get_131_BatchedMeshGeometryConfig_ModelTransform(object instance)
+        private object get_132_BatchedMeshGeometryConfig_ModelTransform(object instance)
         {
             var that = (global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig)instance;
             return that.ModelTransform;
         }
-        private object get_132_BatchedMeshGeometryConfig_MaterialIndex(object instance)
+        private object get_133_BatchedMeshGeometryConfig_MaterialIndex(object instance)
         {
             var that = (global::HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig)instance;
             return that.MaterialIndex;
         }
-        private object get_133_BatchedMeshGeometryModel3D_BatchedMaterials(object instance)
+        private object get_134_BatchedMeshGeometryModel3D_BatchedMaterials(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.BatchedMaterials;
         }
-        private void set_133_BatchedMeshGeometryModel3D_BatchedMaterials(object instance, object Value)
+        private void set_134_BatchedMeshGeometryModel3D_BatchedMaterials(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.BatchedMaterials = (global::System.Collections.Generic.IList<global::HelixToolkit.WinUI.Material>)Value;
         }
-        private object get_134_Material_Core(object instance)
+        private object get_135_Material_Core(object instance)
         {
             var that = (global::HelixToolkit.WinUI.Material)instance;
             return that.Core;
         }
-        private object get_135_Material_Name(object instance)
+        private object get_136_Material_Name(object instance)
         {
             var that = (global::HelixToolkit.WinUI.Material)instance;
             return that.Name;
         }
-        private void set_135_Material_Name(object instance, object Value)
+        private void set_136_Material_Name(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.Material)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_136_BatchedMeshGeometryModel3D_PostEffects(object instance)
+        private object get_137_BatchedMeshGeometryModel3D_PostEffects(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.PostEffects;
         }
-        private void set_136_BatchedMeshGeometryModel3D_PostEffects(object instance, object Value)
+        private void set_137_BatchedMeshGeometryModel3D_PostEffects(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.PostEffects = (global::System.String)Value;
         }
-        private object get_137_BatchedMeshGeometryModel3D_IsThrowingShadow(object instance)
+        private object get_138_BatchedMeshGeometryModel3D_IsThrowingShadow(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.IsThrowingShadow;
         }
-        private void set_137_BatchedMeshGeometryModel3D_IsThrowingShadow(object instance, object Value)
+        private void set_138_BatchedMeshGeometryModel3D_IsThrowingShadow(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.IsThrowingShadow = (global::System.Boolean)Value;
         }
-        private object get_138_BatchedMeshGeometryModel3D_DepthBias(object instance)
+        private object get_139_BatchedMeshGeometryModel3D_DepthBias(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.DepthBias;
         }
-        private void set_138_BatchedMeshGeometryModel3D_DepthBias(object instance, object Value)
+        private void set_139_BatchedMeshGeometryModel3D_DepthBias(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.DepthBias = (global::System.Int32)Value;
         }
-        private object get_139_BatchedMeshGeometryModel3D_SlopeScaledDepthBias(object instance)
+        private object get_140_BatchedMeshGeometryModel3D_SlopeScaledDepthBias(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.SlopeScaledDepthBias;
         }
-        private void set_139_BatchedMeshGeometryModel3D_SlopeScaledDepthBias(object instance, object Value)
+        private void set_140_BatchedMeshGeometryModel3D_SlopeScaledDepthBias(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.SlopeScaledDepthBias = (global::System.Double)Value;
         }
-        private object get_140_BatchedMeshGeometryModel3D_IsSelected(object instance)
+        private object get_141_BatchedMeshGeometryModel3D_IsSelected(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.IsSelected;
         }
-        private void set_140_BatchedMeshGeometryModel3D_IsSelected(object instance, object Value)
+        private void set_141_BatchedMeshGeometryModel3D_IsSelected(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_141_BatchedMeshGeometryModel3D_IsMultisampleEnabled(object instance)
+        private object get_142_BatchedMeshGeometryModel3D_IsMultisampleEnabled(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.IsMultisampleEnabled;
         }
-        private void set_141_BatchedMeshGeometryModel3D_IsMultisampleEnabled(object instance, object Value)
+        private void set_142_BatchedMeshGeometryModel3D_IsMultisampleEnabled(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.IsMultisampleEnabled = (global::System.Boolean)Value;
         }
-        private object get_142_BatchedMeshGeometryModel3D_FillMode(object instance)
+        private object get_143_BatchedMeshGeometryModel3D_FillMode(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.FillMode;
         }
-        private void set_142_BatchedMeshGeometryModel3D_FillMode(object instance, object Value)
+        private void set_143_BatchedMeshGeometryModel3D_FillMode(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.FillMode = (global::SharpDX.Direct3D11.FillMode)Value;
         }
-        private object get_143_BatchedMeshGeometryModel3D_IsScissorEnabled(object instance)
+        private object get_144_BatchedMeshGeometryModel3D_IsScissorEnabled(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.IsScissorEnabled;
         }
-        private void set_143_BatchedMeshGeometryModel3D_IsScissorEnabled(object instance, object Value)
+        private void set_144_BatchedMeshGeometryModel3D_IsScissorEnabled(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.IsScissorEnabled = (global::System.Boolean)Value;
         }
-        private object get_144_BatchedMeshGeometryModel3D_IsDepthClipEnabled(object instance)
+        private object get_145_BatchedMeshGeometryModel3D_IsDepthClipEnabled(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.IsDepthClipEnabled;
         }
-        private void set_144_BatchedMeshGeometryModel3D_IsDepthClipEnabled(object instance, object Value)
+        private void set_145_BatchedMeshGeometryModel3D_IsDepthClipEnabled(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.IsDepthClipEnabled = (global::System.Boolean)Value;
         }
-        private object get_145_BatchedMeshGeometryModel3D_EnableViewFrustumCheck(object instance)
+        private object get_146_BatchedMeshGeometryModel3D_EnableViewFrustumCheck(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.EnableViewFrustumCheck;
         }
-        private void set_145_BatchedMeshGeometryModel3D_EnableViewFrustumCheck(object instance, object Value)
+        private void set_146_BatchedMeshGeometryModel3D_EnableViewFrustumCheck(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.EnableViewFrustumCheck = (global::System.Boolean)Value;
         }
-        private object get_146_BatchedMeshGeometryModel3D_Material(object instance)
+        private object get_147_BatchedMeshGeometryModel3D_Material(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.Material;
         }
-        private void set_146_BatchedMeshGeometryModel3D_Material(object instance, object Value)
+        private void set_147_BatchedMeshGeometryModel3D_Material(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.Material = (global::HelixToolkit.WinUI.Material)Value;
         }
-        private object get_147_BatchedMeshGeometryModel3D_IsTransparent(object instance)
+        private object get_148_BatchedMeshGeometryModel3D_IsTransparent(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.IsTransparent;
         }
-        private void set_147_BatchedMeshGeometryModel3D_IsTransparent(object instance, object Value)
+        private void set_148_BatchedMeshGeometryModel3D_IsTransparent(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.IsTransparent = (global::System.Boolean)Value;
         }
-        private object get_148_BatchedMeshGeometryModel3D_RenderWireframe(object instance)
+        private object get_149_BatchedMeshGeometryModel3D_RenderWireframe(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.RenderWireframe;
         }
-        private void set_148_BatchedMeshGeometryModel3D_RenderWireframe(object instance, object Value)
+        private void set_149_BatchedMeshGeometryModel3D_RenderWireframe(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.RenderWireframe = (global::System.Boolean)Value;
         }
-        private object get_149_BatchedMeshGeometryModel3D_WireframeColor(object instance)
+        private object get_150_BatchedMeshGeometryModel3D_WireframeColor(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.WireframeColor;
         }
-        private void set_149_BatchedMeshGeometryModel3D_WireframeColor(object instance, object Value)
+        private void set_150_BatchedMeshGeometryModel3D_WireframeColor(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.WireframeColor = (global::Windows.UI.Color)Value;
         }
-        private object get_150_BatchedMeshGeometryModel3D_FrontCounterClockwise(object instance)
+        private object get_151_BatchedMeshGeometryModel3D_FrontCounterClockwise(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.FrontCounterClockwise;
         }
-        private void set_150_BatchedMeshGeometryModel3D_FrontCounterClockwise(object instance, object Value)
+        private void set_151_BatchedMeshGeometryModel3D_FrontCounterClockwise(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.FrontCounterClockwise = (global::System.Boolean)Value;
         }
-        private object get_151_BatchedMeshGeometryModel3D_CullMode(object instance)
+        private object get_152_BatchedMeshGeometryModel3D_CullMode(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.CullMode;
         }
-        private void set_151_BatchedMeshGeometryModel3D_CullMode(object instance, object Value)
+        private void set_152_BatchedMeshGeometryModel3D_CullMode(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.CullMode = (global::SharpDX.Direct3D11.CullMode)Value;
         }
-        private object get_152_BatchedMeshGeometryModel3D_InvertNormal(object instance)
+        private object get_153_BatchedMeshGeometryModel3D_InvertNormal(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.InvertNormal;
         }
-        private void set_152_BatchedMeshGeometryModel3D_InvertNormal(object instance, object Value)
+        private void set_153_BatchedMeshGeometryModel3D_InvertNormal(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.InvertNormal = (global::System.Boolean)Value;
         }
-        private object get_153_BatchedMeshGeometryModel3D_AlwaysHittable(object instance)
+        private object get_154_BatchedMeshGeometryModel3D_AlwaysHittable(object instance)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             return that.AlwaysHittable;
         }
-        private void set_153_BatchedMeshGeometryModel3D_AlwaysHittable(object instance, object Value)
+        private void set_154_BatchedMeshGeometryModel3D_AlwaysHittable(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.BatchedMeshGeometryModel3D)instance;
             that.AlwaysHittable = (global::System.Boolean)Value;
         }
-        private object get_154_Light3D_Color(object instance)
+        private object get_155_Light3D_Color(object instance)
         {
             var that = (global::HelixToolkit.WinUI.Light3D)instance;
             return that.Color;
         }
-        private void set_154_Light3D_Color(object instance, object Value)
+        private void set_155_Light3D_Color(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.Light3D)instance;
             that.Color = (global::Windows.UI.Color)Value;
         }
-        private object get_155_Light3D_LightType(object instance)
+        private object get_156_Light3D_LightType(object instance)
         {
             var that = (global::HelixToolkit.WinUI.Light3D)instance;
             return that.LightType;
         }
-        private object get_156_ItemsModel3D_ItemTemplate(object instance)
+        private object get_157_ItemsModel3D_ItemTemplate(object instance)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             return that.ItemTemplate;
         }
-        private void set_156_ItemsModel3D_ItemTemplate(object instance, object Value)
+        private void set_157_ItemsModel3D_ItemTemplate(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             that.ItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_157_ItemsModel3D_ItemsSource(object instance)
+        private object get_158_ItemsModel3D_ItemsSource(object instance)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             return that.ItemsSource;
         }
-        private void set_157_ItemsModel3D_ItemsSource(object instance, object Value)
+        private void set_158_ItemsModel3D_ItemsSource(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             that.ItemsSource = (global::System.Collections.IEnumerable)Value;
         }
-        private object get_158_ItemsModel3D_ItemTemplateSelector(object instance)
+        private object get_159_ItemsModel3D_ItemTemplateSelector(object instance)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             return that.ItemTemplateSelector;
         }
-        private void set_158_ItemsModel3D_ItemTemplateSelector(object instance, object Value)
+        private void set_159_ItemsModel3D_ItemTemplateSelector(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             that.ItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
         }
-        private object get_159_ItemsModel3D_OctreeManager(object instance)
+        private object get_160_ItemsModel3D_OctreeManager(object instance)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             return that.OctreeManager;
         }
-        private void set_159_ItemsModel3D_OctreeManager(object instance, object Value)
+        private void set_160_ItemsModel3D_OctreeManager(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             that.OctreeManager = (global::HelixToolkit.WinUI.IOctreeManagerWrapper)Value;
         }
-        private object get_160_ItemsModel3D_AlwaysHittable(object instance)
+        private object get_161_ItemsModel3D_AlwaysHittable(object instance)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             return that.AlwaysHittable;
         }
-        private void set_160_ItemsModel3D_AlwaysHittable(object instance, object Value)
+        private void set_161_ItemsModel3D_AlwaysHittable(object instance, object Value)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             that.AlwaysHittable = (global::System.Boolean)Value;
         }
-        private object get_161_ItemsModel3D_Children(object instance)
+        private object get_162_ItemsModel3D_Children(object instance)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             return that.Children;
         }
-        private object get_162_ItemsModel3D_Items(object instance)
+        private object get_163_ItemsModel3D_Items(object instance)
         {
             var that = (global::HelixToolkit.WinUI.ItemsModel3D)instance;
             return that.Items;
         }
-        private object get_163_HelixPageView_ViewModel(object instance)
+        private object get_164_HelixPageView_ViewModel(object instance)
         {
             var that = (global::SampleNavigationHelix.Views.HelixPageView)instance;
             return that.ViewModel;
         }
-        private void set_163_HelixPageView_ViewModel(object instance, object Value)
+        private void set_164_HelixPageView_ViewModel(object instance, object Value)
         {
             var that = (global::SampleNavigationHelix.Views.HelixPageView)instance;
             that.ViewModel = (global::SampleNavigationHelix.ViewModels.HelixViewModel)Value;
         }
-        private object get_164_NavigationView_AlwaysShowHeader(object instance)
+        private object get_165_NavigationView_AlwaysShowHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AlwaysShowHeader;
         }
-        private void set_164_NavigationView_AlwaysShowHeader(object instance, object Value)
+        private void set_165_NavigationView_AlwaysShowHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AlwaysShowHeader = (global::System.Boolean)Value;
         }
-        private object get_165_NavigationView_CompactModeThresholdWidth(object instance)
+        private object get_166_NavigationView_CompactModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactModeThresholdWidth;
         }
-        private void set_165_NavigationView_CompactModeThresholdWidth(object instance, object Value)
+        private void set_166_NavigationView_CompactModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_166_NavigationView_CompactPaneLength(object instance)
+        private object get_167_NavigationView_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactPaneLength;
         }
-        private void set_166_NavigationView_CompactPaneLength(object instance, object Value)
+        private void set_167_NavigationView_CompactPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactPaneLength = (global::System.Double)Value;
         }
-        private object get_167_NavigationView_ExpandedModeThresholdWidth(object instance)
+        private object get_168_NavigationView_ExpandedModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ExpandedModeThresholdWidth;
         }
-        private void set_167_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
+        private void set_168_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ExpandedModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_168_NavigationView_IsBackButtonVisible(object instance)
+        private object get_169_NavigationView_IsBackButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsBackButtonVisible;
         }
-        private void set_168_NavigationView_IsBackButtonVisible(object instance, object Value)
+        private void set_169_NavigationView_IsBackButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsBackButtonVisible = (global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible)Value;
         }
-        private object get_169_NavigationView_IsBackEnabled(object instance)
+        private object get_170_NavigationView_IsBackEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsBackEnabled;
         }
-        private void set_169_NavigationView_IsBackEnabled(object instance, object Value)
+        private void set_170_NavigationView_IsBackEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsBackEnabled = (global::System.Boolean)Value;
         }
-        private object get_170_NavigationView_IsSettingsVisible(object instance)
+        private object get_171_NavigationView_IsSettingsVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsSettingsVisible;
         }
-        private void set_170_NavigationView_IsSettingsVisible(object instance, object Value)
+        private void set_171_NavigationView_IsSettingsVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsSettingsVisible = (global::System.Boolean)Value;
         }
-        private object get_171_NavigationView_OpenPaneLength(object instance)
+        private object get_172_NavigationView_OpenPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.OpenPaneLength;
         }
-        private void set_171_NavigationView_OpenPaneLength(object instance, object Value)
+        private void set_172_NavigationView_OpenPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.OpenPaneLength = (global::System.Double)Value;
         }
-        private object get_172_NavigationView_PaneTitle(object instance)
+        private object get_173_NavigationView_PaneTitle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneTitle;
         }
-        private void set_172_NavigationView_PaneTitle(object instance, object Value)
+        private void set_173_NavigationView_PaneTitle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneTitle = (global::System.String)Value;
         }
-        private object get_173_NavigationView_SelectionFollowsFocus(object instance)
+        private object get_174_NavigationView_SelectionFollowsFocus(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SelectionFollowsFocus;
         }
-        private void set_173_NavigationView_SelectionFollowsFocus(object instance, object Value)
+        private void set_174_NavigationView_SelectionFollowsFocus(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.SelectionFollowsFocus = (global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus)Value;
         }
-        private object get_174_NavigationView_MenuItems(object instance)
+        private object get_175_NavigationView_MenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItems;
         }
-        private object get_175_NavigationView_AutoSuggestBox(object instance)
+        private object get_176_NavigationView_AutoSuggestBox(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AutoSuggestBox;
         }
-        private void set_175_NavigationView_AutoSuggestBox(object instance, object Value)
+        private void set_176_NavigationView_AutoSuggestBox(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AutoSuggestBox = (global::Microsoft.UI.Xaml.Controls.AutoSuggestBox)Value;
         }
-        private object get_176_NavigationView_ContentOverlay(object instance)
+        private object get_177_NavigationView_ContentOverlay(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ContentOverlay;
         }
-        private void set_176_NavigationView_ContentOverlay(object instance, object Value)
+        private void set_177_NavigationView_ContentOverlay(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ContentOverlay = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_177_NavigationView_DisplayMode(object instance)
+        private object get_178_NavigationView_DisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.DisplayMode;
         }
-        private object get_178_NavigationView_FooterMenuItems(object instance)
+        private object get_179_NavigationView_FooterMenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItems;
         }
-        private object get_179_NavigationView_FooterMenuItemsSource(object instance)
+        private object get_180_NavigationView_FooterMenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItemsSource;
         }
-        private void set_179_NavigationView_FooterMenuItemsSource(object instance, object Value)
+        private void set_180_NavigationView_FooterMenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.FooterMenuItemsSource = (global::System.Object)Value;
         }
-        private object get_180_NavigationView_Header(object instance)
+        private object get_181_NavigationView_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.Header;
         }
-        private void set_180_NavigationView_Header(object instance, object Value)
+        private void set_181_NavigationView_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_181_NavigationView_HeaderTemplate(object instance)
+        private object get_182_NavigationView_HeaderTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.HeaderTemplate;
         }
-        private void set_181_NavigationView_HeaderTemplate(object instance, object Value)
+        private void set_182_NavigationView_HeaderTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_182_NavigationView_IsPaneOpen(object instance)
+        private object get_183_NavigationView_IsPaneOpen(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneOpen;
         }
-        private void set_182_NavigationView_IsPaneOpen(object instance, object Value)
+        private void set_183_NavigationView_IsPaneOpen(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneOpen = (global::System.Boolean)Value;
         }
-        private object get_183_NavigationView_IsPaneToggleButtonVisible(object instance)
+        private object get_184_NavigationView_IsPaneToggleButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneToggleButtonVisible;
         }
-        private void set_183_NavigationView_IsPaneToggleButtonVisible(object instance, object Value)
+        private void set_184_NavigationView_IsPaneToggleButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneToggleButtonVisible = (global::System.Boolean)Value;
         }
-        private object get_184_NavigationView_IsPaneVisible(object instance)
+        private object get_185_NavigationView_IsPaneVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneVisible;
         }
-        private void set_184_NavigationView_IsPaneVisible(object instance, object Value)
+        private void set_185_NavigationView_IsPaneVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneVisible = (global::System.Boolean)Value;
         }
-        private object get_185_NavigationView_IsTitleBarAutoPaddingEnabled(object instance)
+        private object get_186_NavigationView_IsTitleBarAutoPaddingEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsTitleBarAutoPaddingEnabled;
         }
-        private void set_185_NavigationView_IsTitleBarAutoPaddingEnabled(object instance, object Value)
+        private void set_186_NavigationView_IsTitleBarAutoPaddingEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsTitleBarAutoPaddingEnabled = (global::System.Boolean)Value;
         }
-        private object get_186_NavigationView_MenuItemContainerStyle(object instance)
+        private object get_187_NavigationView_MenuItemContainerStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemContainerStyle;
         }
-        private void set_186_NavigationView_MenuItemContainerStyle(object instance, object Value)
+        private void set_187_NavigationView_MenuItemContainerStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemContainerStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_187_NavigationView_MenuItemContainerStyleSelector(object instance)
+        private object get_188_NavigationView_MenuItemContainerStyleSelector(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemContainerStyleSelector;
         }
-        private void set_187_NavigationView_MenuItemContainerStyleSelector(object instance, object Value)
+        private void set_188_NavigationView_MenuItemContainerStyleSelector(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemContainerStyleSelector = (global::Microsoft.UI.Xaml.Controls.StyleSelector)Value;
         }
-        private object get_188_NavigationView_MenuItemTemplate(object instance)
+        private object get_189_NavigationView_MenuItemTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemTemplate;
         }
-        private void set_188_NavigationView_MenuItemTemplate(object instance, object Value)
+        private void set_189_NavigationView_MenuItemTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_189_NavigationView_MenuItemTemplateSelector(object instance)
+        private object get_190_NavigationView_MenuItemTemplateSelector(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemTemplateSelector;
         }
-        private void set_189_NavigationView_MenuItemTemplateSelector(object instance, object Value)
+        private void set_190_NavigationView_MenuItemTemplateSelector(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
         }
-        private object get_190_NavigationView_MenuItemsSource(object instance)
+        private object get_191_NavigationView_MenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemsSource;
         }
-        private void set_190_NavigationView_MenuItemsSource(object instance, object Value)
+        private void set_191_NavigationView_MenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemsSource = (global::System.Object)Value;
         }
-        private object get_191_NavigationView_OverflowLabelMode(object instance)
+        private object get_192_NavigationView_OverflowLabelMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.OverflowLabelMode;
         }
-        private void set_191_NavigationView_OverflowLabelMode(object instance, object Value)
+        private void set_192_NavigationView_OverflowLabelMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.OverflowLabelMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode)Value;
         }
-        private object get_192_NavigationView_PaneCustomContent(object instance)
+        private object get_193_NavigationView_PaneCustomContent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneCustomContent;
         }
-        private void set_192_NavigationView_PaneCustomContent(object instance, object Value)
+        private void set_193_NavigationView_PaneCustomContent(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneCustomContent = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_193_NavigationView_PaneDisplayMode(object instance)
+        private object get_194_NavigationView_PaneDisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneDisplayMode;
         }
-        private void set_193_NavigationView_PaneDisplayMode(object instance, object Value)
+        private void set_194_NavigationView_PaneDisplayMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneDisplayMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode)Value;
         }
-        private object get_194_NavigationView_PaneFooter(object instance)
+        private object get_195_NavigationView_PaneFooter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneFooter;
         }
-        private void set_194_NavigationView_PaneFooter(object instance, object Value)
+        private void set_195_NavigationView_PaneFooter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneFooter = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_195_NavigationView_PaneHeader(object instance)
+        private object get_196_NavigationView_PaneHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneHeader;
         }
-        private void set_195_NavigationView_PaneHeader(object instance, object Value)
+        private void set_196_NavigationView_PaneHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneHeader = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_196_NavigationView_PaneToggleButtonStyle(object instance)
+        private object get_197_NavigationView_PaneToggleButtonStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneToggleButtonStyle;
         }
-        private void set_196_NavigationView_PaneToggleButtonStyle(object instance, object Value)
+        private void set_197_NavigationView_PaneToggleButtonStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneToggleButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_197_NavigationView_SelectedItem(object instance)
+        private object get_198_NavigationView_SelectedItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SelectedItem;
         }
-        private void set_197_NavigationView_SelectedItem(object instance, object Value)
+        private void set_198_NavigationView_SelectedItem(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_198_NavigationView_SettingsItem(object instance)
+        private object get_199_NavigationView_SettingsItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SettingsItem;
         }
-        private object get_199_NavigationView_ShoulderNavigationEnabled(object instance)
+        private object get_200_NavigationView_ShoulderNavigationEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ShoulderNavigationEnabled;
         }
-        private void set_199_NavigationView_ShoulderNavigationEnabled(object instance, object Value)
+        private void set_200_NavigationView_ShoulderNavigationEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ShoulderNavigationEnabled = (global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled)Value;
         }
-        private object get_200_NavigationView_TemplateSettings(object instance)
+        private object get_201_NavigationView_TemplateSettings(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.TemplateSettings;
         }
-        private object get_201_NavigationViewItem_Icon(object instance)
+        private object get_202_NavigationViewItem_Icon(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.Icon;
         }
-        private void set_201_NavigationViewItem_Icon(object instance, object Value)
+        private void set_202_NavigationViewItem_Icon(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.Icon = (global::Microsoft.UI.Xaml.Controls.IconElement)Value;
         }
-        private object get_202_NavigationViewItem_CompactPaneLength(object instance)
+        private object get_203_NavigationViewItem_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.CompactPaneLength;
         }
-        private object get_203_NavigationViewItem_HasUnrealizedChildren(object instance)
+        private object get_204_NavigationViewItem_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_203_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
+        private void set_204_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_204_NavigationViewItem_IsChildSelected(object instance)
+        private object get_205_NavigationViewItem_InfoBadge(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
+            return that.InfoBadge;
+        }
+        private void set_205_NavigationViewItem_InfoBadge(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
+            that.InfoBadge = (global::Microsoft.UI.Xaml.Controls.InfoBadge)Value;
+        }
+        private object get_206_NavigationViewItem_IsChildSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsChildSelected;
         }
-        private void set_204_NavigationViewItem_IsChildSelected(object instance, object Value)
+        private void set_206_NavigationViewItem_IsChildSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsChildSelected = (global::System.Boolean)Value;
         }
-        private object get_205_NavigationViewItem_IsExpanded(object instance)
+        private object get_207_NavigationViewItem_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsExpanded;
         }
-        private void set_205_NavigationViewItem_IsExpanded(object instance, object Value)
+        private void set_207_NavigationViewItem_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_206_NavigationViewItem_MenuItems(object instance)
+        private object get_208_NavigationViewItem_MenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.MenuItems;
         }
-        private object get_207_NavigationViewItem_MenuItemsSource(object instance)
+        private object get_209_NavigationViewItem_MenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.MenuItemsSource;
         }
-        private void set_207_NavigationViewItem_MenuItemsSource(object instance, object Value)
+        private void set_209_NavigationViewItem_MenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.MenuItemsSource = (global::System.Object)Value;
         }
-        private object get_208_NavigationViewItem_SelectsOnInvoked(object instance)
+        private object get_210_NavigationViewItem_SelectsOnInvoked(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.SelectsOnInvoked;
         }
-        private void set_208_NavigationViewItem_SelectsOnInvoked(object instance, object Value)
+        private void set_210_NavigationViewItem_SelectsOnInvoked(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.SelectsOnInvoked = (global::System.Boolean)Value;
         }
-        private object get_209_NavigationViewItemBase_IsSelected(object instance)
+        private object get_211_NavigationViewItemBase_IsSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             return that.IsSelected;
         }
-        private void set_209_NavigationViewItemBase_IsSelected(object instance, object Value)
+        private void set_211_NavigationViewItemBase_IsSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_210_MainWindow_ViewModel(object instance)
+        private object get_212_MainWindow_ViewModel(object instance)
         {
             var that = (global::SampleNavigationHelix.Views.MainWindow)instance;
             return that.ViewModel;
         }
-        private void set_210_MainWindow_ViewModel(object instance, object Value)
+        private void set_212_MainWindow_ViewModel(object instance, object Value)
         {
             var that = (global::SampleNavigationHelix.Views.MainWindow)instance;
             that.ViewModel = (global::SampleNavigationHelix.ViewModels.MainWindowViewModel)Value;
@@ -3674,50 +3715,50 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlMember.Getter = get_30_Viewport3DX_ZoomAroundMouseDownPoint;
                 xamlMember.Setter = set_30_Viewport3DX_ZoomAroundMouseDownPoint;
                 break;
+            case "HelixToolkit.WinUI.Viewport3DX.RenderHost":
+                userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Viewport3DX");
+                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "RenderHost", "HelixToolkit.SharpDX.Core.IRenderHost");
+                xamlMember.Getter = get_31_Viewport3DX_RenderHost;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "HelixToolkit.WinUI.Viewport3DX.CameraCore":
+                userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Viewport3DX");
+                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CameraCore", "HelixToolkit.SharpDX.Core.Cameras.CameraCore");
+                xamlMember.Getter = get_32_Viewport3DX_CameraCore;
+                xamlMember.SetIsReadOnly();
+                break;
             case "HelixToolkit.WinUI.Viewport3DX.InputBindings":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Viewport3DX");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "InputBindings", "HelixToolkit.WinUI.InputBindingCollection");
-                xamlMember.Getter = get_31_Viewport3DX_InputBindings;
+                xamlMember.Getter = get_33_Viewport3DX_InputBindings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.WinUI.InputBinding.Command":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.InputBinding");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_32_InputBinding_Command;
-                xamlMember.Setter = set_32_InputBinding_Command;
+                xamlMember.Getter = get_34_InputBinding_Command;
+                xamlMember.Setter = set_34_InputBinding_Command;
                 break;
             case "HelixToolkit.WinUI.InputBinding.CommandParameter":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.InputBinding");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_InputBinding_CommandParameter;
-                xamlMember.Setter = set_33_InputBinding_CommandParameter;
+                xamlMember.Getter = get_35_InputBinding_CommandParameter;
+                xamlMember.Setter = set_35_InputBinding_CommandParameter;
                 break;
             case "HelixToolkit.WinUI.InputBinding.CommandTarget":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.InputBinding");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CommandTarget", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_InputBinding_CommandTarget;
-                xamlMember.Setter = set_34_InputBinding_CommandTarget;
+                xamlMember.Getter = get_36_InputBinding_CommandTarget;
+                xamlMember.Setter = set_36_InputBinding_CommandTarget;
                 break;
             case "HelixToolkit.WinUI.InputBinding.Gesture":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.InputBinding");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Gesture", "HelixToolkit.WinUI.InputGesture");
-                xamlMember.Getter = get_35_InputBinding_Gesture;
-                xamlMember.Setter = set_35_InputBinding_Gesture;
-                break;
-            case "HelixToolkit.WinUI.Viewport3DX.RenderHost":
-                userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Viewport3DX");
-                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "RenderHost", "HelixToolkit.SharpDX.Core.IRenderHost");
-                xamlMember.Getter = get_36_Viewport3DX_RenderHost;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "HelixToolkit.WinUI.Viewport3DX.CameraCore":
-                userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Viewport3DX");
-                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CameraCore", "HelixToolkit.SharpDX.Core.Cameras.CameraCore");
-                xamlMember.Getter = get_37_Viewport3DX_CameraCore;
-                xamlMember.SetIsReadOnly();
+                xamlMember.Getter = get_37_InputBinding_Gesture;
+                xamlMember.Setter = set_37_InputBinding_Gesture;
                 break;
             case "HelixToolkit.WinUI.Viewport3DX.ManipulationBindings":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Viewport3DX");
@@ -3897,7 +3938,7 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 break;
             case "HelixToolkit.WinUI.Viewport3DX.ViewCubeTexture":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Viewport3DX");
-                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ViewCubeTexture", "System.IO.Stream");
+                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ViewCubeTexture", "HelixToolkit.SharpDX.Core.TextureModel");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_64_Viewport3DX_ViewCubeTexture;
                 xamlMember.Setter = set_64_Viewport3DX_ViewCubeTexture;
@@ -4326,591 +4367,605 @@ namespace SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo
                 xamlMember.Getter = get_125_GroupElement3D_Items;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "SampleNavigationHelix.CustomUIElement.CustomBox3D.BoxColor":
+                userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SampleNavigationHelix.CustomUIElement.CustomBox3D");
+                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "BoxColor", "HelixToolkit.WinUI.PhongMaterial");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_126_CustomBox3D_BoxColor;
+                xamlMember.Setter = set_126_CustomBox3D_BoxColor;
+                break;
             case "SampleNavigationHelix.CustomUIElement.CustomBox3D.PosX":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SampleNavigationHelix.CustomUIElement.CustomBox3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PosX", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_126_CustomBox3D_PosX;
-                xamlMember.Setter = set_126_CustomBox3D_PosX;
+                xamlMember.Getter = get_127_CustomBox3D_PosX;
+                xamlMember.Setter = set_127_CustomBox3D_PosX;
                 break;
             case "SampleNavigationHelix.CustomUIElement.CustomBox3D.PosY":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SampleNavigationHelix.CustomUIElement.CustomBox3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PosY", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_127_CustomBox3D_PosY;
-                xamlMember.Setter = set_127_CustomBox3D_PosY;
+                xamlMember.Getter = get_128_CustomBox3D_PosY;
+                xamlMember.Setter = set_128_CustomBox3D_PosY;
                 break;
             case "SampleNavigationHelix.CustomUIElement.CustomBox3D.PosZ":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SampleNavigationHelix.CustomUIElement.CustomBox3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PosZ", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_128_CustomBox3D_PosZ;
-                xamlMember.Setter = set_128_CustomBox3D_PosZ;
+                xamlMember.Getter = get_129_CustomBox3D_PosZ;
+                xamlMember.Setter = set_129_CustomBox3D_PosZ;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.BatchedGeometries":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "BatchedGeometries", "System.Collections.Generic.IList`1<HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_129_BatchedMeshGeometryModel3D_BatchedGeometries;
-                xamlMember.Setter = set_129_BatchedMeshGeometryModel3D_BatchedGeometries;
+                xamlMember.Getter = get_130_BatchedMeshGeometryModel3D_BatchedGeometries;
+                xamlMember.Setter = set_130_BatchedMeshGeometryModel3D_BatchedGeometries;
                 break;
             case "HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig.Geometry":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Geometry", "HelixToolkit.SharpDX.Core.Geometry3D");
-                xamlMember.Getter = get_130_BatchedMeshGeometryConfig_Geometry;
+                xamlMember.Getter = get_131_BatchedMeshGeometryConfig_Geometry;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig.ModelTransform":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ModelTransform", "SharpDX.Matrix");
-                xamlMember.Getter = get_131_BatchedMeshGeometryConfig_ModelTransform;
+                xamlMember.Getter = get_132_BatchedMeshGeometryConfig_ModelTransform;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig.MaterialIndex":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.SharpDX.Core.BatchedMeshGeometryConfig");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MaterialIndex", "Int32");
-                xamlMember.Getter = get_132_BatchedMeshGeometryConfig_MaterialIndex;
+                xamlMember.Getter = get_133_BatchedMeshGeometryConfig_MaterialIndex;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.BatchedMaterials":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "BatchedMaterials", "System.Collections.Generic.IList`1<HelixToolkit.WinUI.Material>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_133_BatchedMeshGeometryModel3D_BatchedMaterials;
-                xamlMember.Setter = set_133_BatchedMeshGeometryModel3D_BatchedMaterials;
+                xamlMember.Getter = get_134_BatchedMeshGeometryModel3D_BatchedMaterials;
+                xamlMember.Setter = set_134_BatchedMeshGeometryModel3D_BatchedMaterials;
                 break;
             case "HelixToolkit.WinUI.Material.Core":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Material");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Core", "HelixToolkit.SharpDX.Core.Model.MaterialCore");
-                xamlMember.Getter = get_134_Material_Core;
+                xamlMember.Getter = get_135_Material_Core;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.WinUI.Material.Name":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Material");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Name", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_135_Material_Name;
-                xamlMember.Setter = set_135_Material_Name;
+                xamlMember.Getter = get_136_Material_Name;
+                xamlMember.Setter = set_136_Material_Name;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.PostEffects":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PostEffects", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_136_BatchedMeshGeometryModel3D_PostEffects;
-                xamlMember.Setter = set_136_BatchedMeshGeometryModel3D_PostEffects;
+                xamlMember.Getter = get_137_BatchedMeshGeometryModel3D_PostEffects;
+                xamlMember.Setter = set_137_BatchedMeshGeometryModel3D_PostEffects;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.IsThrowingShadow":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsThrowingShadow", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_137_BatchedMeshGeometryModel3D_IsThrowingShadow;
-                xamlMember.Setter = set_137_BatchedMeshGeometryModel3D_IsThrowingShadow;
+                xamlMember.Getter = get_138_BatchedMeshGeometryModel3D_IsThrowingShadow;
+                xamlMember.Setter = set_138_BatchedMeshGeometryModel3D_IsThrowingShadow;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.DepthBias":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "DepthBias", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_138_BatchedMeshGeometryModel3D_DepthBias;
-                xamlMember.Setter = set_138_BatchedMeshGeometryModel3D_DepthBias;
+                xamlMember.Getter = get_139_BatchedMeshGeometryModel3D_DepthBias;
+                xamlMember.Setter = set_139_BatchedMeshGeometryModel3D_DepthBias;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.SlopeScaledDepthBias":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "SlopeScaledDepthBias", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_139_BatchedMeshGeometryModel3D_SlopeScaledDepthBias;
-                xamlMember.Setter = set_139_BatchedMeshGeometryModel3D_SlopeScaledDepthBias;
+                xamlMember.Getter = get_140_BatchedMeshGeometryModel3D_SlopeScaledDepthBias;
+                xamlMember.Setter = set_140_BatchedMeshGeometryModel3D_SlopeScaledDepthBias;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.IsSelected":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_140_BatchedMeshGeometryModel3D_IsSelected;
-                xamlMember.Setter = set_140_BatchedMeshGeometryModel3D_IsSelected;
+                xamlMember.Getter = get_141_BatchedMeshGeometryModel3D_IsSelected;
+                xamlMember.Setter = set_141_BatchedMeshGeometryModel3D_IsSelected;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.IsMultisampleEnabled":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsMultisampleEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_141_BatchedMeshGeometryModel3D_IsMultisampleEnabled;
-                xamlMember.Setter = set_141_BatchedMeshGeometryModel3D_IsMultisampleEnabled;
+                xamlMember.Getter = get_142_BatchedMeshGeometryModel3D_IsMultisampleEnabled;
+                xamlMember.Setter = set_142_BatchedMeshGeometryModel3D_IsMultisampleEnabled;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.FillMode":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "FillMode", "SharpDX.Direct3D11.FillMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_142_BatchedMeshGeometryModel3D_FillMode;
-                xamlMember.Setter = set_142_BatchedMeshGeometryModel3D_FillMode;
+                xamlMember.Getter = get_143_BatchedMeshGeometryModel3D_FillMode;
+                xamlMember.Setter = set_143_BatchedMeshGeometryModel3D_FillMode;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.IsScissorEnabled":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsScissorEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_143_BatchedMeshGeometryModel3D_IsScissorEnabled;
-                xamlMember.Setter = set_143_BatchedMeshGeometryModel3D_IsScissorEnabled;
+                xamlMember.Getter = get_144_BatchedMeshGeometryModel3D_IsScissorEnabled;
+                xamlMember.Setter = set_144_BatchedMeshGeometryModel3D_IsScissorEnabled;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.IsDepthClipEnabled":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsDepthClipEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_144_BatchedMeshGeometryModel3D_IsDepthClipEnabled;
-                xamlMember.Setter = set_144_BatchedMeshGeometryModel3D_IsDepthClipEnabled;
+                xamlMember.Getter = get_145_BatchedMeshGeometryModel3D_IsDepthClipEnabled;
+                xamlMember.Setter = set_145_BatchedMeshGeometryModel3D_IsDepthClipEnabled;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.EnableViewFrustumCheck":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "EnableViewFrustumCheck", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_145_BatchedMeshGeometryModel3D_EnableViewFrustumCheck;
-                xamlMember.Setter = set_145_BatchedMeshGeometryModel3D_EnableViewFrustumCheck;
+                xamlMember.Getter = get_146_BatchedMeshGeometryModel3D_EnableViewFrustumCheck;
+                xamlMember.Setter = set_146_BatchedMeshGeometryModel3D_EnableViewFrustumCheck;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.Material":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Material", "HelixToolkit.WinUI.Material");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_146_BatchedMeshGeometryModel3D_Material;
-                xamlMember.Setter = set_146_BatchedMeshGeometryModel3D_Material;
+                xamlMember.Getter = get_147_BatchedMeshGeometryModel3D_Material;
+                xamlMember.Setter = set_147_BatchedMeshGeometryModel3D_Material;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.IsTransparent":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsTransparent", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_147_BatchedMeshGeometryModel3D_IsTransparent;
-                xamlMember.Setter = set_147_BatchedMeshGeometryModel3D_IsTransparent;
+                xamlMember.Getter = get_148_BatchedMeshGeometryModel3D_IsTransparent;
+                xamlMember.Setter = set_148_BatchedMeshGeometryModel3D_IsTransparent;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.RenderWireframe":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "RenderWireframe", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_148_BatchedMeshGeometryModel3D_RenderWireframe;
-                xamlMember.Setter = set_148_BatchedMeshGeometryModel3D_RenderWireframe;
+                xamlMember.Getter = get_149_BatchedMeshGeometryModel3D_RenderWireframe;
+                xamlMember.Setter = set_149_BatchedMeshGeometryModel3D_RenderWireframe;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.WireframeColor":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "WireframeColor", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_149_BatchedMeshGeometryModel3D_WireframeColor;
-                xamlMember.Setter = set_149_BatchedMeshGeometryModel3D_WireframeColor;
+                xamlMember.Getter = get_150_BatchedMeshGeometryModel3D_WireframeColor;
+                xamlMember.Setter = set_150_BatchedMeshGeometryModel3D_WireframeColor;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.FrontCounterClockwise":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "FrontCounterClockwise", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_150_BatchedMeshGeometryModel3D_FrontCounterClockwise;
-                xamlMember.Setter = set_150_BatchedMeshGeometryModel3D_FrontCounterClockwise;
+                xamlMember.Getter = get_151_BatchedMeshGeometryModel3D_FrontCounterClockwise;
+                xamlMember.Setter = set_151_BatchedMeshGeometryModel3D_FrontCounterClockwise;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.CullMode":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CullMode", "SharpDX.Direct3D11.CullMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_151_BatchedMeshGeometryModel3D_CullMode;
-                xamlMember.Setter = set_151_BatchedMeshGeometryModel3D_CullMode;
+                xamlMember.Getter = get_152_BatchedMeshGeometryModel3D_CullMode;
+                xamlMember.Setter = set_152_BatchedMeshGeometryModel3D_CullMode;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.InvertNormal":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "InvertNormal", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_152_BatchedMeshGeometryModel3D_InvertNormal;
-                xamlMember.Setter = set_152_BatchedMeshGeometryModel3D_InvertNormal;
+                xamlMember.Getter = get_153_BatchedMeshGeometryModel3D_InvertNormal;
+                xamlMember.Setter = set_153_BatchedMeshGeometryModel3D_InvertNormal;
                 break;
             case "HelixToolkit.WinUI.BatchedMeshGeometryModel3D.AlwaysHittable":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.BatchedMeshGeometryModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "AlwaysHittable", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_153_BatchedMeshGeometryModel3D_AlwaysHittable;
-                xamlMember.Setter = set_153_BatchedMeshGeometryModel3D_AlwaysHittable;
+                xamlMember.Getter = get_154_BatchedMeshGeometryModel3D_AlwaysHittable;
+                xamlMember.Setter = set_154_BatchedMeshGeometryModel3D_AlwaysHittable;
                 break;
             case "HelixToolkit.WinUI.Light3D.Color":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Light3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_154_Light3D_Color;
-                xamlMember.Setter = set_154_Light3D_Color;
+                xamlMember.Getter = get_155_Light3D_Color;
+                xamlMember.Setter = set_155_Light3D_Color;
                 break;
             case "HelixToolkit.WinUI.Light3D.LightType":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.Light3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "LightType", "HelixToolkit.SharpDX.Core.LightType");
-                xamlMember.Getter = get_155_Light3D_LightType;
+                xamlMember.Getter = get_156_Light3D_LightType;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.WinUI.ItemsModel3D.ItemTemplate":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.ItemsModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_156_ItemsModel3D_ItemTemplate;
-                xamlMember.Setter = set_156_ItemsModel3D_ItemTemplate;
+                xamlMember.Getter = get_157_ItemsModel3D_ItemTemplate;
+                xamlMember.Setter = set_157_ItemsModel3D_ItemTemplate;
                 break;
             case "HelixToolkit.WinUI.ItemsModel3D.ItemsSource":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.ItemsModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ItemsSource", "System.Collections.IEnumerable");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_157_ItemsModel3D_ItemsSource;
-                xamlMember.Setter = set_157_ItemsModel3D_ItemsSource;
+                xamlMember.Getter = get_158_ItemsModel3D_ItemsSource;
+                xamlMember.Setter = set_158_ItemsModel3D_ItemsSource;
                 break;
             case "HelixToolkit.WinUI.ItemsModel3D.ItemTemplateSelector":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.ItemsModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_158_ItemsModel3D_ItemTemplateSelector;
-                xamlMember.Setter = set_158_ItemsModel3D_ItemTemplateSelector;
+                xamlMember.Getter = get_159_ItemsModel3D_ItemTemplateSelector;
+                xamlMember.Setter = set_159_ItemsModel3D_ItemTemplateSelector;
                 break;
             case "HelixToolkit.WinUI.ItemsModel3D.OctreeManager":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.ItemsModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "OctreeManager", "HelixToolkit.WinUI.IOctreeManagerWrapper");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_159_ItemsModel3D_OctreeManager;
-                xamlMember.Setter = set_159_ItemsModel3D_OctreeManager;
+                xamlMember.Getter = get_160_ItemsModel3D_OctreeManager;
+                xamlMember.Setter = set_160_ItemsModel3D_OctreeManager;
                 break;
             case "HelixToolkit.WinUI.ItemsModel3D.AlwaysHittable":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.ItemsModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "AlwaysHittable", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_160_ItemsModel3D_AlwaysHittable;
-                xamlMember.Setter = set_160_ItemsModel3D_AlwaysHittable;
+                xamlMember.Getter = get_161_ItemsModel3D_AlwaysHittable;
+                xamlMember.Setter = set_161_ItemsModel3D_AlwaysHittable;
                 break;
             case "HelixToolkit.WinUI.ItemsModel3D.Children":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.ItemsModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Children", "HelixToolkit.WinUI.ObservableElement3DCollection");
-                xamlMember.Getter = get_161_ItemsModel3D_Children;
+                xamlMember.Getter = get_162_ItemsModel3D_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HelixToolkit.WinUI.ItemsModel3D.Items":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HelixToolkit.WinUI.ItemsModel3D");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Items", "Microsoft.UI.Xaml.Controls.ItemCollection");
-                xamlMember.Getter = get_162_ItemsModel3D_Items;
+                xamlMember.Getter = get_163_ItemsModel3D_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "SampleNavigationHelix.Views.HelixPageView.ViewModel":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SampleNavigationHelix.Views.HelixPageView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ViewModel", "SampleNavigationHelix.ViewModels.HelixViewModel");
-                xamlMember.Getter = get_163_HelixPageView_ViewModel;
-                xamlMember.Setter = set_163_HelixPageView_ViewModel;
+                xamlMember.Getter = get_164_HelixPageView_ViewModel;
+                xamlMember.Setter = set_164_HelixPageView_ViewModel;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_164_NavigationView_AlwaysShowHeader;
-                xamlMember.Setter = set_164_NavigationView_AlwaysShowHeader;
+                xamlMember.Getter = get_165_NavigationView_AlwaysShowHeader;
+                xamlMember.Setter = set_165_NavigationView_AlwaysShowHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_165_NavigationView_CompactModeThresholdWidth;
-                xamlMember.Setter = set_165_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Getter = get_166_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Setter = set_166_NavigationView_CompactModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_166_NavigationView_CompactPaneLength;
-                xamlMember.Setter = set_166_NavigationView_CompactPaneLength;
+                xamlMember.Getter = get_167_NavigationView_CompactPaneLength;
+                xamlMember.Setter = set_167_NavigationView_CompactPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_167_NavigationView_ExpandedModeThresholdWidth;
-                xamlMember.Setter = set_167_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Getter = get_168_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Setter = set_168_NavigationView_ExpandedModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_168_NavigationView_IsBackButtonVisible;
-                xamlMember.Setter = set_168_NavigationView_IsBackButtonVisible;
+                xamlMember.Getter = get_169_NavigationView_IsBackButtonVisible;
+                xamlMember.Setter = set_169_NavigationView_IsBackButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_169_NavigationView_IsBackEnabled;
-                xamlMember.Setter = set_169_NavigationView_IsBackEnabled;
+                xamlMember.Getter = get_170_NavigationView_IsBackEnabled;
+                xamlMember.Setter = set_170_NavigationView_IsBackEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_170_NavigationView_IsSettingsVisible;
-                xamlMember.Setter = set_170_NavigationView_IsSettingsVisible;
+                xamlMember.Getter = get_171_NavigationView_IsSettingsVisible;
+                xamlMember.Setter = set_171_NavigationView_IsSettingsVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_171_NavigationView_OpenPaneLength;
-                xamlMember.Setter = set_171_NavigationView_OpenPaneLength;
+                xamlMember.Getter = get_172_NavigationView_OpenPaneLength;
+                xamlMember.Setter = set_172_NavigationView_OpenPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_172_NavigationView_PaneTitle;
-                xamlMember.Setter = set_172_NavigationView_PaneTitle;
+                xamlMember.Getter = get_173_NavigationView_PaneTitle;
+                xamlMember.Setter = set_173_NavigationView_PaneTitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_173_NavigationView_SelectionFollowsFocus;
-                xamlMember.Setter = set_173_NavigationView_SelectionFollowsFocus;
+                xamlMember.Getter = get_174_NavigationView_SelectionFollowsFocus;
+                xamlMember.Setter = set_174_NavigationView_SelectionFollowsFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItems":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_174_NavigationView_MenuItems;
+                xamlMember.Getter = get_175_NavigationView_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_175_NavigationView_AutoSuggestBox;
-                xamlMember.Setter = set_175_NavigationView_AutoSuggestBox;
+                xamlMember.Getter = get_176_NavigationView_AutoSuggestBox;
+                xamlMember.Setter = set_176_NavigationView_AutoSuggestBox;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_176_NavigationView_ContentOverlay;
-                xamlMember.Setter = set_176_NavigationView_ContentOverlay;
+                xamlMember.Getter = get_177_NavigationView_ContentOverlay;
+                xamlMember.Setter = set_177_NavigationView_ContentOverlay;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_177_NavigationView_DisplayMode;
+                xamlMember.Getter = get_178_NavigationView_DisplayMode;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_178_NavigationView_FooterMenuItems;
+                xamlMember.Getter = get_179_NavigationView_FooterMenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_179_NavigationView_FooterMenuItemsSource;
-                xamlMember.Setter = set_179_NavigationView_FooterMenuItemsSource;
+                xamlMember.Getter = get_180_NavigationView_FooterMenuItemsSource;
+                xamlMember.Setter = set_180_NavigationView_FooterMenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_180_NavigationView_Header;
-                xamlMember.Setter = set_180_NavigationView_Header;
+                xamlMember.Getter = get_181_NavigationView_Header;
+                xamlMember.Setter = set_181_NavigationView_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_181_NavigationView_HeaderTemplate;
-                xamlMember.Setter = set_181_NavigationView_HeaderTemplate;
+                xamlMember.Getter = get_182_NavigationView_HeaderTemplate;
+                xamlMember.Setter = set_182_NavigationView_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_182_NavigationView_IsPaneOpen;
-                xamlMember.Setter = set_182_NavigationView_IsPaneOpen;
+                xamlMember.Getter = get_183_NavigationView_IsPaneOpen;
+                xamlMember.Setter = set_183_NavigationView_IsPaneOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_183_NavigationView_IsPaneToggleButtonVisible;
-                xamlMember.Setter = set_183_NavigationView_IsPaneToggleButtonVisible;
+                xamlMember.Getter = get_184_NavigationView_IsPaneToggleButtonVisible;
+                xamlMember.Setter = set_184_NavigationView_IsPaneToggleButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_184_NavigationView_IsPaneVisible;
-                xamlMember.Setter = set_184_NavigationView_IsPaneVisible;
+                xamlMember.Getter = get_185_NavigationView_IsPaneVisible;
+                xamlMember.Setter = set_185_NavigationView_IsPaneVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_185_NavigationView_IsTitleBarAutoPaddingEnabled;
-                xamlMember.Setter = set_185_NavigationView_IsTitleBarAutoPaddingEnabled;
+                xamlMember.Getter = get_186_NavigationView_IsTitleBarAutoPaddingEnabled;
+                xamlMember.Setter = set_186_NavigationView_IsTitleBarAutoPaddingEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_186_NavigationView_MenuItemContainerStyle;
-                xamlMember.Setter = set_186_NavigationView_MenuItemContainerStyle;
+                xamlMember.Getter = get_187_NavigationView_MenuItemContainerStyle;
+                xamlMember.Setter = set_187_NavigationView_MenuItemContainerStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_187_NavigationView_MenuItemContainerStyleSelector;
-                xamlMember.Setter = set_187_NavigationView_MenuItemContainerStyleSelector;
+                xamlMember.Getter = get_188_NavigationView_MenuItemContainerStyleSelector;
+                xamlMember.Setter = set_188_NavigationView_MenuItemContainerStyleSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_188_NavigationView_MenuItemTemplate;
-                xamlMember.Setter = set_188_NavigationView_MenuItemTemplate;
+                xamlMember.Getter = get_189_NavigationView_MenuItemTemplate;
+                xamlMember.Setter = set_189_NavigationView_MenuItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_189_NavigationView_MenuItemTemplateSelector;
-                xamlMember.Setter = set_189_NavigationView_MenuItemTemplateSelector;
+                xamlMember.Getter = get_190_NavigationView_MenuItemTemplateSelector;
+                xamlMember.Setter = set_190_NavigationView_MenuItemTemplateSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_190_NavigationView_MenuItemsSource;
-                xamlMember.Setter = set_190_NavigationView_MenuItemsSource;
+                xamlMember.Getter = get_191_NavigationView_MenuItemsSource;
+                xamlMember.Setter = set_191_NavigationView_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_191_NavigationView_OverflowLabelMode;
-                xamlMember.Setter = set_191_NavigationView_OverflowLabelMode;
+                xamlMember.Getter = get_192_NavigationView_OverflowLabelMode;
+                xamlMember.Setter = set_192_NavigationView_OverflowLabelMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_192_NavigationView_PaneCustomContent;
-                xamlMember.Setter = set_192_NavigationView_PaneCustomContent;
+                xamlMember.Getter = get_193_NavigationView_PaneCustomContent;
+                xamlMember.Setter = set_193_NavigationView_PaneCustomContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_193_NavigationView_PaneDisplayMode;
-                xamlMember.Setter = set_193_NavigationView_PaneDisplayMode;
+                xamlMember.Getter = get_194_NavigationView_PaneDisplayMode;
+                xamlMember.Setter = set_194_NavigationView_PaneDisplayMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_194_NavigationView_PaneFooter;
-                xamlMember.Setter = set_194_NavigationView_PaneFooter;
+                xamlMember.Getter = get_195_NavigationView_PaneFooter;
+                xamlMember.Setter = set_195_NavigationView_PaneFooter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_195_NavigationView_PaneHeader;
-                xamlMember.Setter = set_195_NavigationView_PaneHeader;
+                xamlMember.Getter = get_196_NavigationView_PaneHeader;
+                xamlMember.Setter = set_196_NavigationView_PaneHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_196_NavigationView_PaneToggleButtonStyle;
-                xamlMember.Setter = set_196_NavigationView_PaneToggleButtonStyle;
+                xamlMember.Getter = get_197_NavigationView_PaneToggleButtonStyle;
+                xamlMember.Setter = set_197_NavigationView_PaneToggleButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_197_NavigationView_SelectedItem;
-                xamlMember.Setter = set_197_NavigationView_SelectedItem;
+                xamlMember.Getter = get_198_NavigationView_SelectedItem;
+                xamlMember.Setter = set_198_NavigationView_SelectedItem;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_198_NavigationView_SettingsItem;
+                xamlMember.Getter = get_199_NavigationView_SettingsItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_199_NavigationView_ShoulderNavigationEnabled;
-                xamlMember.Setter = set_199_NavigationView_ShoulderNavigationEnabled;
+                xamlMember.Getter = get_200_NavigationView_ShoulderNavigationEnabled;
+                xamlMember.Setter = set_200_NavigationView_ShoulderNavigationEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_200_NavigationView_TemplateSettings;
+                xamlMember.Getter = get_201_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_201_NavigationViewItem_Icon;
-                xamlMember.Setter = set_201_NavigationViewItem_Icon;
+                xamlMember.Getter = get_202_NavigationViewItem_Icon;
+                xamlMember.Setter = set_202_NavigationViewItem_Icon;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_202_NavigationViewItem_CompactPaneLength;
+                xamlMember.Getter = get_203_NavigationViewItem_CompactPaneLength;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_203_NavigationViewItem_HasUnrealizedChildren;
-                xamlMember.Setter = set_203_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Getter = get_204_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Setter = set_204_NavigationViewItem_HasUnrealizedChildren;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NavigationViewItem.InfoBadge":
+                userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_205_NavigationViewItem_InfoBadge;
+                xamlMember.Setter = set_205_NavigationViewItem_InfoBadge;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_204_NavigationViewItem_IsChildSelected;
-                xamlMember.Setter = set_204_NavigationViewItem_IsChildSelected;
+                xamlMember.Getter = get_206_NavigationViewItem_IsChildSelected;
+                xamlMember.Setter = set_206_NavigationViewItem_IsChildSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_205_NavigationViewItem_IsExpanded;
-                xamlMember.Setter = set_205_NavigationViewItem_IsExpanded;
+                xamlMember.Getter = get_207_NavigationViewItem_IsExpanded;
+                xamlMember.Setter = set_207_NavigationViewItem_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_206_NavigationViewItem_MenuItems;
+                xamlMember.Getter = get_208_NavigationViewItem_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_207_NavigationViewItem_MenuItemsSource;
-                xamlMember.Setter = set_207_NavigationViewItem_MenuItemsSource;
+                xamlMember.Getter = get_209_NavigationViewItem_MenuItemsSource;
+                xamlMember.Setter = set_209_NavigationViewItem_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.SelectsOnInvoked":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_208_NavigationViewItem_SelectsOnInvoked;
-                xamlMember.Setter = set_208_NavigationViewItem_SelectsOnInvoked;
+                xamlMember.Getter = get_210_NavigationViewItem_SelectsOnInvoked;
+                xamlMember.Setter = set_210_NavigationViewItem_SelectsOnInvoked;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItemBase.IsSelected":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_209_NavigationViewItemBase_IsSelected;
-                xamlMember.Setter = set_209_NavigationViewItemBase_IsSelected;
+                xamlMember.Getter = get_211_NavigationViewItemBase_IsSelected;
+                xamlMember.Setter = set_211_NavigationViewItemBase_IsSelected;
                 break;
             case "SampleNavigationHelix.Views.MainWindow.ViewModel":
                 userType = (global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SampleNavigationHelix.Views.MainWindow");
                 xamlMember = new global::SampleNavigationHelix.SampleNavigationHelix_XamlTypeInfo.XamlMember(this, "ViewModel", "SampleNavigationHelix.ViewModels.MainWindowViewModel");
-                xamlMember.Getter = get_210_MainWindow_ViewModel;
-                xamlMember.Setter = set_210_MainWindow_ViewModel;
+                xamlMember.Getter = get_212_MainWindow_ViewModel;
+                xamlMember.Setter = set_212_MainWindow_ViewModel;
                 break;
             }
             return xamlMember;

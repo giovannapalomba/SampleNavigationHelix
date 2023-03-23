@@ -9,7 +9,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="using:SampleNavigationHelix.ViewModels"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    NavigationCacheMode="Enabled"
+    NavigationCacheMode="Disabled"
     mc:Ignorable="d">
 
     <Grid>
@@ -18,13 +18,33 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Button x:ConnectionId='2'
+
+
+        <!--<Button
             Grid.Row="0"
-                          
-            Content="Add"/>
+            Click="AddBox"
+            Content="Add"/>-->
+
+        <Grid Grid.Row="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <ComboBox x:ConnectionId='7'
+                Grid.Column="0"
+                Width="200"
+                Header="Colors"
+                                                            
+                PlaceholderText="Pick a color"
+                                                                                 />
 
 
-        <hx:Viewport3DX x:ConnectionId='3'
+        </Grid>
+
+
+        <hx:Viewport3DX x:ConnectionId='2'
             x:Name="viewport"
             Grid.Row="1"
             BackgroundColor="LightGray"
@@ -49,8 +69,9 @@
             <hx:Viewport3DX.Resources>
 
                 <DataTemplate x:Key="TemplateDX_Box"                             >
-                    <hx:GroupModel3D x:ConnectionId='5'                                                >
-                        <controls3d:CustomBox3D x:ConnectionId='6'
+                    <hx:GroupModel3D x:ConnectionId='4'                                                >
+                        <controls3d:CustomBox3D x:ConnectionId='5'
+                                                                                                                     
                                                                   
                                                                   
                                                                   />
@@ -61,19 +82,22 @@
 
 
 
-            <hx:Viewport3DX.InputBindings>
-                <!--<MouseBinding Command="Pan" Gesture="MiddleClick" />
-                    <hx:KeyBinding Command="hx:ViewportCommands.ZoomExtents" Gesture="Control+E" />-->
-            </hx:Viewport3DX.InputBindings>
+            <!--<hx:Viewport3DX.InputBindings>
+
+                <MouseBinding Command="Pan" Gesture="MiddleClick"/>
+                <hx:KeyBinding Command="hx:ViewportCommands.ZoomExtents" Gesture="Control+E"/>
+
+            </hx:Viewport3DX.InputBindings>-->
 
             <hx:AmbientLight3D Color="#363636"/>
 
-            <hx:ItemsModel3D x:ConnectionId='7'
+            <hx:ItemsModel3D x:ConnectionId='6'
                 x:Name="itemsModel3D"
                 ItemTemplate="{StaticResource TemplateDX_Box}"
                                                                              />
 
         </hx:Viewport3DX>
+
     </Grid>
 </Page>
 

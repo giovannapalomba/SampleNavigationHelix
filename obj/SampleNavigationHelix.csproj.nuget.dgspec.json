@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VMUser\\source\\repos\\SampleNavigationHelix\\SampleNavigationHelix.csproj": {}
+    "C:\\Users\\VMUser\\Desktop\\SampleNavigationHelix-main\\SampleNavigationHelix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VMUser\\source\\repos\\SampleNavigationHelix\\SampleNavigationHelix.csproj": {
+    "C:\\Users\\VMUser\\Desktop\\SampleNavigationHelix-main\\SampleNavigationHelix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VMUser\\source\\repos\\SampleNavigationHelix\\SampleNavigationHelix.csproj",
+        "projectUniqueName": "C:\\Users\\VMUser\\Desktop\\SampleNavigationHelix-main\\SampleNavigationHelix.csproj",
         "projectName": "SampleNavigationHelix",
-        "projectPath": "C:\\Users\\VMUser\\source\\repos\\SampleNavigationHelix\\SampleNavigationHelix.csproj",
+        "projectPath": "C:\\Users\\VMUser\\Desktop\\SampleNavigationHelix-main\\SampleNavigationHelix.csproj",
         "packagesPath": "C:\\Users\\VMUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VMUser\\source\\repos\\SampleNavigationHelix\\obj\\",
+        "outputPath": "C:\\Users\\VMUser\\Desktop\\SampleNavigationHelix-main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,12 +22,12 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows10.0.19041"
+          "net6.0-windows10.0.19041.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://packages.stride3d.net/nuget": {},
-          "https://www.myget.org/F/helix-toolkit": {}
+          "https://www.myget.org/F/helixtoolkit-nightly": {}
         },
         "frameworks": {
           "net6.0-windows10.0.19041": {
@@ -47,15 +47,15 @@
           "dependencies": {
             "HelixToolkit.WinUI": {
               "target": "Package",
-              "version": "[2.21.0, )"
+              "version": "[2.24.0-alpha0029, )"
             },
             "Microsoft.Windows.SDK.BuildTools": {
               "target": "Package",
-              "version": "[10.0.22000.194, )"
+              "version": "[10.0.22621.756, )"
             },
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
-              "version": "[1.1.0-preview3, )"
+              "version": "[1.2.230217.4, )"
             }
           },
           "imports": [
@@ -64,50 +64,51 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.24, 10.0.19041.24]"
+              "version": "[10.0.19041.28, 10.0.19041.28]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[6.0.4, 6.0.4]"
+              "version": "[6.0.14, 6.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -118,7 +119,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
